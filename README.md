@@ -4,8 +4,9 @@
 #
 ## [TechOnTheNet SQL](https://www.techonthenet.com/sql/index.php)
 ### 2023-03-10 SQL 시작
-- SELECT 추가 / 2023-03-10
-- FROM 추가 / 2023-03-10
+- [SELECT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT.md) 추가 / 2023-03-10
+- [FROM](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/FROM.md) 추가 / 2023-03-10
+- [Comparison Operators](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/Comparison Operators.md) 추가 / 2023-03-10
 #
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
 #
