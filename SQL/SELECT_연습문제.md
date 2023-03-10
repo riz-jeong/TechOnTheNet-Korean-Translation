@@ -41,7 +41,7 @@ VALUES
 ```
 
 ### 연습 문제 #1 풀이
-다음 SQL SELECT 문은 employees 테이블에서 이러한 레코드를 선택합니다.
+다음 SQL SELECT 문은 employees 테이블에서 이러한 레코드를 선택합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT *
 FROM employees
@@ -112,7 +112,7 @@ VALUES
 ```
 
 ### 연습 문제 #2 풀이
-다음 SELECT 문은 suppliers 테이블에서 이러한 레코드를 선택합니다.
+다음 SELECT 문은 suppliers 테이블에서 이러한 레코드를 선택합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT DISTINCT city
 FROM suppliers
@@ -205,7 +205,7 @@ VALUES
 ```
 
 ### 연습 문제 #3 풀이
-다음 SQL SELECT 문은 고객 및 주문 테이블에서 이러한 레코드를 선택합니다. ([INNER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/INNER_JOIN_튜토리얼.md) 사용)
+다음 SQL SELECT 문은 고객 및 주문 테이블에서 이러한 레코드를 선택합니다. ([INNER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/INNER_JOIN_튜토리얼.md) 사용) **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT customers.customer_id, customers.last_name, orders.order_date
 FROM customers 
@@ -245,7 +245,7 @@ CREATE TABLE orders
 ```
 
 ### 연습 문제 #4 풀이
-다음 SQL SELECT 문은 customers 및 orders 테이블에서 레코드를 선택합니다. ([SQL EXISTS 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/EXISTS_튜토리얼.md) 사용)
+다음 SQL SELECT 문은 customers 및 orders 테이블에서 레코드를 선택합니다. ([SQL EXISTS 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/EXISTS_튜토리얼.md) 사용) **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT customer_id, last_name
 FROM customers
@@ -255,7 +255,7 @@ WHERE EXISTS
     WHERE orders.customer_id = customers.customer_id )
 ORDER BY last_name ASC, customer_id DESC;
 ```
-또는 [ORDER BY 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY_튜토리얼.md)에서 customer_name에 대한 ASC 키워드를 제외할 수도 있습니다. 두 SELECT 문 모두 동일한 결과를 생성합니다.
+또는 [ORDER BY 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY_튜토리얼.md)에서 customer_name에 대한 ASC 키워드를 제외할 수도 있습니다. 두 SELECT 문 모두 동일한 결과를 생성합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT customer_id, last_name
 FROM customers

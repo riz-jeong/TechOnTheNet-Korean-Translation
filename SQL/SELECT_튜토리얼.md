@@ -48,7 +48,7 @@ SQL SELECT 문을 사용하여 테이블에서 모든 필드를 선택하는 방
 | 9000        | Johnson   | Derek      | techonthenet.com  |
 
 이제 고객 테이블에서 모든 열을 선택하여 SELECT 문이 어떻게 작동하는지 살펴보겠습니다.  
-다음 SELECT 문을 입력합니다.
+다음 SELECT 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT *
 FROM customers
@@ -85,7 +85,7 @@ ORDER BY last_name ASC;
 
 
 이제 customers 테이블에서 모든 열을 선택하여 SELECT 문이 어떻게 작동하는지 살펴보겠습니다.  
-다음 SELECT 문을 입력합니다.
+다음 SELECT 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT supplier_name, city
 FROM suppliers
@@ -129,7 +129,7 @@ SQL SELECT 문을 사용하여 여러 테이블에서 필드를 검색할 수도
 | 9000        | Johnson   | Derek      | techonthenet.com  |
 
 이제 주문 테이블과 고객 테이블에서 열을 선택해 보겠습니다.  
-다음 SELECT 문을 입력합니다.
+다음 SELECT 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT orders.order_id, customers.last_name
 FROM orders
@@ -150,7 +150,7 @@ ORDER BY orders.order_id;
 SELECT 문에서 열을 사용할 때마다 열이 어느 테이블에 속하는지 모호할 경우를 대비하여 열 앞에 테이블 이름(예: orders.order_id)을 붙입니다.
 
 orders 테이블의 모든 필드를 선택한 다음 customers 테이블의 last_name 필드를 선택하려는 경우  
-다음 SELECT 문을 입력합니다.
+다음 SELECT 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
 ```SQL
 SELECT orders.*, customers.last_name
 FROM orders

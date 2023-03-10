@@ -45,7 +45,7 @@ ON table1.column1 = table2.column1 ]
 | 800         | Flowers Foods     | Thomasville      | Georgia    |
 | 900         | Electronic Arts   | Redwood City     | California |
 
-다음 SQL 문을 입력합니다.
+다음 SQL 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/from_try_sql.php)**
 ```SQL
 SELECT *
 FROM suppliers
@@ -88,7 +88,7 @@ FROM 절을 사용하여 두 테이블을 함께 [INNER JOIN](https://github.com
 | 100         | General Merchandise |
 | 125         | Technology          |
 
-다음 SQL 문을 입력합니다.
+다음 SQL 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/from_try_sql.php)**
 ```SQL
 SELECT products.product_name, categories.category_name
 FROM products 
@@ -115,8 +115,7 @@ WHERE product_name <> 'Pear';
 이 경우 LEFT OUTER JOIN을 살펴보겠습니다.
 
 위의 INNER JOIN 예제에서와 동일한 제품 및 카테고리 테이블을 사용하되 이번에는 LEFT OUTER JOIN을 사용하여 테이블을 조인해 보겠습니다.  
-다음 SQL 문을 입력합니다.
-
+다음 SQL 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/from_try_sql.php)**
 ```SQL
 SELECT products.product_name, categories.category_name
 FROM products 
