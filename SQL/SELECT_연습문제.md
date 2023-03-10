@@ -4,6 +4,7 @@ SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇
 각 연습이 끝나면 정답을 확인할 수 있도록 해답이 제공됩니다.
 
 시작하세요!
+### [튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_튜토리얼.md)
 
 #
 ## 연습 문제 #1
