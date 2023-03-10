@@ -63,6 +63,7 @@ WHERE supplier_name = 'Microsoft';
 SQL에서는 쿼리에서 부등식을 테스트하는 두 가지 방법이 있습니다.  
 <> 연산자 또는 != 연산자를 사용할 수 있습니다. 둘 다 동일한 결과를 반환합니다.  
 이전 예제와 동일한 suppliers 테이블을 사용하겠습니다.
+
 | supplier_id | supplier_name     | city             | state      |
 | :---------- | :---------------- | :--------------- | :--------- |
 | 100         | Microsoft         | Redmond          | Washington |
@@ -74,6 +75,7 @@ SQL에서는 쿼리에서 부등식을 테스트하는 두 가지 방법이 있�
 | 700         | Dole Food Company | Westlake Village | California |
 | 800         | Flowers Foods     | Thomasville      | Georgia    |
 | 900         | Electronic Arts   | Redwood City     | California |
+
 다음 SQL 문을 입력하여 <> 연산자를 사용하여 부등식을 테스트합니다. **[Try it](https://www.techonthenet.com/sql/comparison_operators_try_sql.php)**
 ```SQL
 SELECT *
@@ -105,6 +107,7 @@ WHERE supplier_name != 'Microsoft';
 ## 예제 - 보다 큼 연산자
 SQL에서 > 연산자를 사용하여 보다 큼 연산식을 테스트할 수 있습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
+
 | customer_id | last_name | first_name | favorite_website  |
 | :---------- | :-------- | :--------- | :---------------- |
 | 4000        | Jackson   | Joe        | techonthenet.com  |
@@ -113,6 +116,7 @@ SQL에서 > 연산자를 사용하여 보다 큼 연산식을 테스트할 수 �
 | 7000        | Reynolds  | Allen      | checkyourmath.com |
 | 8000        | Anderson  | Paige      | NULL              |
 | 9000        | Johnson   | Derek      | techonthenet.com  |
+
 다음 SQL 문을 입력합니다.  **[Try it](https://www.techonthenet.com/sql/comparison_operators_try_sql.php)**
 ```SQL
 SELECT *
