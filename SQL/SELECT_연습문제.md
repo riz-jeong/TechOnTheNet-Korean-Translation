@@ -40,6 +40,7 @@ VALUES
 ```
 
 ### 연습 문제 #1 풀이
+다음 SQL SELECT 문은 employees 테이블에서 이러한 레코드를 선택합니다.
 ```SQL
 SELECT *
 FROM employees
@@ -47,9 +48,9 @@ WHERE salary <= 52500;
 ```
 다음은 표시되는 결과입니다.
 
-|employee_number|last_name|first_name|salary|dept_id |
-|---------------|---------|----------|------|--------|
-|     1004      | Horvath |   Jack   |42000 |  501   |
+| employee_number | last_name | first_name | salary | dept_id |
+| --------------- | --------- | ---------- | ------ | ------- |
+| 1004            | Horvath   | Jack       | 42000  | 501     |
 
 #
 ## 연습 문제 #2
@@ -119,11 +120,11 @@ ORDER BY city DESC;
 ```
 다음은 표시되는 결과입니다.
 
-|      city       |
-|-----------------|
-|Westlake Village |
-|  Redwood City   |
-|  Mountain View  |
+| city             |
+| ---------------- |
+| Westlake Village |
+| Redwood City     |
+| Mountain View    |
 
 #
 ## 연습 문제 #3
@@ -203,6 +204,7 @@ VALUES
 ```
 
 ### 연습 문제 #3 풀이
+다음 SQL SELECT 문은 고객 및 주문 테이블에서 이러한 레코드를 선택합니다. ([INNER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/INNER_JOIN_튜토리얼.md) 사용)
 ```SQL
 SELECT customers.customer_id, customers.last_name, orders.order_date
 FROM customers 
@@ -212,12 +214,12 @@ ORDER BY customers.customer_id DESC;
 ```
 다음은 표시되는 결과입니다.
 
-|customer_id|last_name|order_date |
-|-----------|---------|-----------|
-|   8000    |Anderson |2016/04/19 |
-|   5000    |  Smith  |2016/04/18 |
-|   7000    |Reynolds |2016/04/18 |
-|   4000    | Jackson |2016/04/20 |
+| customer_id | last_name | order_date |
+| ----------- | --------- | ---------- |
+| 8000        | Anderson  | 2016/04/19 |
+| 5000        | Smith     | 2016/04/18 |
+| 7000        | Reynolds  | 2016/04/18 |
+| 4000        | Jackson   | 2016/04/20 |
 
 #
 ## 연습 문제 #4
@@ -242,7 +244,7 @@ CREATE TABLE orders
 ```
 
 ### 연습 문제 #4 풀이
-다음 SQL SELECT 문은 customers 및 orders 테이블에서 레코드를 선택합니다. (SQL EXISTS 절 사용)
+다음 SQL SELECT 문은 customers 및 orders 테이블에서 레코드를 선택합니다. ([SQL EXISTS 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/EXISTS_튜토리얼.md) 사용)
 ```SQL
 SELECT customer_id, last_name
 FROM customers
@@ -252,7 +254,7 @@ WHERE EXISTS
     WHERE orders.customer_id = customers.customer_id )
 ORDER BY last_name ASC, customer_id DESC;
 ```
-또는 ORDER BY 절에서 customer_name에 대한 ASC 키워드를 제외할 수도 있습니다. 두 SELECT 문 모두 동일한 결과를 생성합니다.
+또는 [ORDER BY 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY_튜토리얼.md)에서 customer_name에 대한 ASC 키워드를 제외할 수도 있습니다. 두 SELECT 문 모두 동일한 결과를 생성합니다.
 ```SQL
 SELECT customer_id, last_name
 FROM customers
@@ -264,12 +266,12 @@ ORDER BY last_name, customer_id DESC;
 ```
 다음은 표시되는 결과입니다.
 
-|customer_id|last_name |
-|-----------|----------|
-|   8000    | Anderson |
-|   4000    | Jackson  |
-|   7000    | Reynolds |
-|   5000    |  Smith   |
+| customer_id | last_name |
+| ----------- | --------- |
+| 8000        | Anderson  |
+| 4000        | Jackson   |
+| 7000        | Reynolds  |
+| 5000        | Smith     |
 
 #
 ### [튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_튜토리얼.md)

@@ -38,14 +38,14 @@ FROM tables
 SQL SELECT 문을 사용하여 테이블에서 모든 필드를 선택하는 방법을 보여주는 예제를 살펴보겠습니다.  
 이 예제에는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
-|customer_id|last_name|first_name| favorite_website |
-|-----------|---------|----------|------------------|
-|   4000    | Jackson |   Joe    | techonthenet.com |
-|   5000    |  Smith  |   Jane   | digminecraft.com |
-|   6000    |Ferguson | Samantha |bigactivities.com |
-|   7000    |Reynolds |  Allen   |checkyourmath.com |
-|   8000    |Anderson |  Paige   |       NULL       |
-|   9000    | Johnson |  Derek   | techonthenet.com |
+| customer_id | last_name | first_name | favorite_website  |
+| ----------- | --------- | ---------- | ----------------- |
+| 4000        | Jackson   | Joe        | techonthenet.com  |
+| 5000        | Smith     | Jane       | digminecraft.com  |
+| 6000        | Ferguson  | Samantha   | bigactivities.com |
+| 7000        | Reynolds  | Allen      | checkyourmath.com |
+| 8000        | Anderson  | Paige      | NULL              |
+| 9000        | Johnson   | Derek      | techonthenet.com  |
 
 이제 고객 테이블에서 모든 열을 선택하여 SELECT 문이 어떻게 작동하는지 살펴보겠습니다.  
 다음 SELECT 문을 입력합니다.
@@ -57,10 +57,10 @@ ORDER BY last_name ASC;
 ```
 2개의 레코드가 선택됩니다. 아래가 표시되는 결과입니다.
 
-|customer_id|last_name|first_name|favorite_website |
-|-----------|---------|----------|-----------------|
-|   4000    | Jackson |   Joe    |techonthenet.com |
-|   9000    | Johnson |  Derek   |techonthenet.com |
+| customer_id | last_name | first_name | favorite_website |
+| ----------- | --------- | ---------- | ---------------- |
+| 4000        | Jackson   | Joe        | techonthenet.com |
+| 9000        | Johnson   | Derek      | techonthenet.com |
 
 이 예제에서는 *를 사용하여 favorite_website가 'techonthenet.com'인 customers 테이블의 모든 필드를 표시했습니다.  
 결과 집합은 last_name을 기준으로 오름차순으로 정렬됩니다.
@@ -70,17 +70,19 @@ ORDER BY last_name ASC;
 테이블의 모든 필드가 아니라 테이블에서 개별 필드를 선택하려면 SQL SELECT 문을 사용할 수도 있습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
-|supplier_id|supplier_name |  city  |               state                |
-|-----------|--------------|--------|------------------------------------|
-|    100    |  Microsoft   |Redmond |             Washington             |
-|    200    |    Google    |Mountain|          View California           |
-|    300    |    Oracle    |Redwood |          City California           |
-|    400    |Kimberly-Clark| Irving |               Texas                |
-|    500    |    Tyson     | Foods  |        Springdale Arkansas         |
-|    600    |      SC      |Johnson |          Racine Wisconsin          |
-|    700    |     Dole     |  Food  |Company Westlake Village California |
-|    800    |   Flowers    | Foods  |        Thomasville Georgia         |
-|    900    |  Electronic  |  Arts  |      Redwood City California       |
+| supplier_id | supplier_name     | city             | state      |
+| ----------- | ----------------- | ---------------- | ---------- |
+| 100         | Microsoft         | Redmond          | Washington |
+| 200         | Google            | Mountain View    | California |
+| 300         | Oracle            | Redwood City     | California |
+| 400         | Kimberly-Clark    | Irving           | Texas      |
+| 500         | Tyson Foods       | Springdale       | Arkansas   |
+| 600         | SC Johnson        | Racine           | Wisconsin  |
+| 700         | Dole Food Company | Westlake Village | California |
+| 800         | Flowers Foods     | Thomasville      | Georgia    |
+| 900         | Electronic Arts   | Redwood City     | California |
+
+
 
 이제 customers 테이블에서 모든 열을 선택하여 SELECT 문이 어떻게 작동하는지 살펴보겠습니다.  
 다음 SELECT 문을 입력합니다.
@@ -92,12 +94,12 @@ ORDER BY supplier_name ASC, city DESC;
 ```
 2개의 레코드가 선택됩니다. 아래가 표시되는 결과입니다.
 
-|supplier_name|             city             |
-|-------------|------------------------------|
-|    Dole     |Food Company Westlake Village |
-| Electronic  |      Arts Redwood City       |
-|   Flowers   |      Foods Thomasville       |
-|     SC      |        Johnson Racine        |
+| supplier_name     | city             |
+| ----------------- | ---------------- |
+| Dole Food Company | Westlake Village |
+| Electronic Arts   | Redwood City     |
+| Flowers Foods     | Thomasville      |
+| SC Johnson        | Racine           |
 
 이 예제에서는 supplier_id 값이 500보다 큰 suppliers 테이블에서 supplier_name 및 city 필드만 반환합니다.  
 결과는 supplier_name을 오름차순으로 정렬한 다음 city를 내림차순으로 정렬합니다.
@@ -107,24 +109,24 @@ ORDER BY supplier_name ASC, city DESC;
 SQL SELECT 문을 사용하여 여러 테이블에서 필드를 검색할 수도 있습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 orders라는 테이블이 있습니다.
 
-|order_id|customer_id|order_date |
-|--------|-----------|-----------|
-|   1    |   7000    |2016/04/18 |
-|   2    |   5000    |2016/04/18 |
-|   3    |   8000    |2016/04/19 |
-|   4    |   4000    |2016/04/20 |
-|   5    |   NULL    |2016/05/01 |
+| order_id | customer_id | order_date |
+| -------- | ----------- | ---------- |
+| 1        | 7000        | 2016/04/18 |
+| 2        | 5000        | 2016/04/18 |
+| 3        | 8000        | 2016/04/19 |
+| 4        | 4000        | 2016/04/20 |
+| 5        | NULL        | 2016/05/01 |
 
 그리고 다음 데이터가 있는 customers라는 테이블이 있습니다.
 
-|customer_id|last_name|first_name| favorite_website |
-|-----------|---------|----------|------------------|
-|   4000    | Jackson |   Joe    | techonthenet.com |
-|   5000    |  Smith  |   Jane   | digminecraft.com |
-|   6000    |Ferguson | Samantha |bigactivities.com |
-|   7000    |Reynolds |  Allen   |checkyourmath.com |
-|   8000    |Anderson |  Paige   |       NULL       |
-|   9000    | Johnson |  Derek   | techonthenet.com |
+| customer_id | last_name | first_name | favorite_website  |
+| ----------- | --------- | ---------- | ----------------- |
+| 4000        | Jackson   | Joe        | techonthenet.com  |
+| 5000        | Smith     | Jane       | digminecraft.com  |
+| 6000        | Ferguson  | Samantha   | bigactivities.com |
+| 7000        | Reynolds  | Allen      | checkyourmath.com |
+| 8000        | Anderson  | Paige      | NULL              |
+| 9000        | Johnson   | Derek      | techonthenet.com  |
 
 이제 주문 테이블과 고객 테이블에서 열을 선택해 보겠습니다.  
 다음 SELECT 문을 입력합니다.
@@ -138,11 +140,11 @@ ORDER BY orders.order_id;
 ```
 3개의 레코드가 선택됩니다. 아래가 표시되는 결과입니다.
 
-|order_id|last_name |
-|--------|----------|
-|   2    |  Smith   |
-|   3    | Anderson |
-|   4    | Jackson  |
+| order_id | last_name |
+| -------- | --------- |
+| 2        | Smith     |
+| 3        | Anderson  |
+| 4        | Jackson   |
 
 이 SELECT 예제에서는 두 테이블을 조인하여 orders 테이블의 order_id와 customers 테이블의 last_name을 표시하는 결과 집합을 제공합니다.  
 SELECT 문에서 열을 사용할 때마다 열이 어느 테이블에 속하는지 모호할 경우를 대비하여 열 앞에 테이블 이름(예: orders.order_id)을 붙입니다.
@@ -159,11 +161,11 @@ ORDER BY orders.order_id;
 ```
 3개의 레코드가 선택됩니다. 아래가 표시되는 결과입니다.
 
-|order_id|customer_id|order_date|last_name |
-|--------|-----------|----------|----------|
-|   2    |   5000    |2016/04/18|  Smith   |
-|   3    |   8000    |2016/04/19| Anderson |
-|   4    |   4000    |2016/04/20| Jackson  |
+| order_id | customer_id | order_date | last_name |
+| -------- | ----------- | ---------- | --------- |
+| 2        | 5000        | 2016/04/18 | Smith     |
+| 3        | 8000        | 2016/04/19 | Anderson  |
+| 4        | 4000        | 2016/04/20 | Jackson   |
 
 이 예제에서는 orders.*를 사용하여 orders 테이블에서 모든 필드를 선택한 다음 customers 테이블에서 last_name 필드를 선택한다는 것을 나타냅니다.
 
