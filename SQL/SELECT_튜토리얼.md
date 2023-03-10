@@ -68,7 +68,7 @@ ORDER BY last_name ASC;
 #
 ## 예제 - 테이블에서 개별 필드 선택
 테이블의 모든 필드가 아니라 테이블에서 개별 필드를 선택하려면 SQL SELECT 문을 사용할 수도 있습니다.  
-이 예제에서는 다음과 같은 데이터가 있는 공급업체라는 테이블이 있습니다.
+이 예제에서는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
 |supplier_id|supplier_name |  city  |               state                |
 |-----------|--------------|--------|------------------------------------|
@@ -85,20 +85,22 @@ ORDER BY last_name ASC;
 이제 customers 테이블에서 모든 열을 선택하여 SELECT 문이 어떻게 작동하는지 살펴보겠습니다.  
 다음 SELECT 문을 입력합니다.
 ```SQL
-SELECT *
-FROM customers
-WHERE favorite_website = 'techonthenet.com'
-ORDER BY last_name ASC;
+SELECT supplier_name, city
+FROM suppliers
+WHERE supplier_id > 500
+ORDER BY supplier_name ASC, city DESC;
 ```
 2개의 레코드가 선택됩니다. 아래가 표시되는 결과입니다.
 
-|customer_id|last_name|first_name|favorite_website |
-|-----------|---------|----------|-----------------|
-|   4000    | Jackson |   Joe    |techonthenet.com |
-|   9000    | Johnson |  Derek   |techonthenet.com |
+|supplier_name|             city             |
+|-------------|------------------------------|
+|    Dole     |Food Company Westlake Village |
+| Electronic  |      Arts Redwood City       |
+|   Flowers   |      Foods Thomasville       |
+|     SC      |        Johnson Racine        |
 
-이 예제에서는 *를 사용하여 favorite_website이 'techonthenet.com'인 customers 테이블의 모든 필드를 표시했습니다.  
-결과 집합은 last_name을 기준으로 오름차순으로 정렬됩니다.
+이 예제에서는 supplier_id 값이 500보다 큰 suppliers 테이블에서 supplier_name 및 city 필드만 반환합니다.  
+결과는 supplier_name을 오름차순으로 정렬한 다음 city를 내림차순으로 정렬합니다.
 
 #
 ## 예제 - 여러 테이블에서 개별 필드 선택
