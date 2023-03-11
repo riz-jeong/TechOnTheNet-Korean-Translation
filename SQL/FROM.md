@@ -1,6 +1,6 @@
 # SQL : FROM 절
 
-이 SQL 튜토리얼에서는 구문과 예제를 통해 SQL FROM 절을 사용하는 방법을 설명합니다.
+이 SQL 튜토리얼에서는 구문과 예제를 통해 SQL **FROM 절**을 사용하는 방법을 설명합니다.
 
 ## 설명
 SQL FROM 절은 SQL 문에 필요한 테이블과 모든 조인을 나열하는 데 사용됩니다.
@@ -15,7 +15,7 @@ FROM table1
   | FULL [OUTER] JOIN } table2
 ON table1.column1 = table2.column1 ]
 ```
-### 매개변수 또는 인수
+### 매개변수 및 인수
 #### **table1 and table2**
 - 다음은 SQL 문에 사용된 테이블입니다. 두 테이블은 table1.column1 = table2.column1을 기준으로 조인됩니다.
 
@@ -30,7 +30,8 @@ ON table1.column1 = table2.column1 ]
 
 #
 ## 예제 - FROM 절에 나열된 테이블 하나
-먼저 SQL 문에서 하나의 테이블만 나열하는 FROM 절을 사용하는 방법부터 살펴보겠습니다.  
+먼저 SQL 문에서 하나의 테이블만 나열하는 FROM 절을 사용하는 방법부터 살펴보겠습니다.
+
 이 예제에서는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
 | supplier_id | supplier_name     | city             | state      |

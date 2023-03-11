@@ -1,6 +1,6 @@
 # SQL : SELECT 문
 
-이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_Exercises.md)를 통해 SQL SELECT 문을 사용하는 방법을 설명합니다.
+이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_Exercises.md)를 통해 SQL **SELECT 문**을 사용하는 방법을 설명합니다.
 
 ## 설명
 SQL SELECT 문은 SQL 데이터베이스의 하나 이상의 테이블에서 레코드를 검색하는 데 사용됩니다. 검색된 레코드를 결과 집합이라고 합니다.
@@ -14,10 +14,10 @@ FROM tables
 [WHERE conditions]
 [ORDER BY expressions [ ASC | DESC ]];
 ```
-### 매개변수 또는 인수
+### 매개변수 및 인수
 #### **expressions(표현식)**
 - 검색하려는 열 또는 계산입니다. 모든 열을 선택하려면 *를 사용합니다.
-#### **테이블(tables)**
+#### **tables**
 - 레코드를 검색하려는 테이블입니다. FROM 절에 테이블이 하나 이상 나열되어 있어야 합니다.
 #### **WHERE conditions(WHERE 조건)**
 - 선택 사항입니다. 레코드를 선택하기 위해 충족해야 하는 조건입니다. 조건을 제공하지 않으면 모든 레코드가 선택됩니다.
@@ -35,7 +35,8 @@ FROM tables
 
 #
 ## 예제 - 테이블에서 모든 필드 선택
-SQL SELECT 문을 사용하여 테이블에서 모든 필드를 선택하는 방법을 보여주는 예제를 살펴보겠습니다.  
+SQL SELECT 문을 사용하여 테이블에서 모든 필드를 선택하는 방법을 보여주는 예제를 살펴보겠습니다.
+
 이 예제에는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
 | customer_id | last_name | first_name | favorite_website  |
@@ -67,7 +68,8 @@ ORDER BY last_name ASC;
 
 #
 ## 예제 - 테이블에서 개별 필드 선택
-테이블의 모든 필드가 아니라 테이블에서 개별 필드를 선택하려면 SQL SELECT 문을 사용할 수도 있습니다.  
+테이블의 모든 필드가 아니라 테이블에서 개별 필드를 선택하려면 SQL SELECT 문을 사용할 수도 있습니다.
+
 이 예제에서는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
 | supplier_id | supplier_name     | city             | state      |
@@ -106,7 +108,8 @@ ORDER BY supplier_name ASC, city DESC;
 
 #
 ## 예제 - 여러 테이블에서 개별 필드 선택
-SQL SELECT 문을 사용하여 여러 테이블에서 필드를 검색할 수도 있습니다.  
+SQL SELECT 문을 사용하여 여러 테이블에서 필드를 검색할 수도 있습니다.
+
 이 예제에서는 다음과 같은 데이터가 있는 orders라는 테이블이 있습니다.
 
 | order_id | customer_id | order_date |
