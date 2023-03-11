@@ -8,6 +8,7 @@
 - [FROM](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/FROM.md) 추가 / 2023-03-10
 - [Comparison Operators](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/Comparison_Operators.md) 추가 / 2023-03-10
 - [WHERE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/WHERE.md) 추가 / 2023-03-11
+- [ORDER BY](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY.md) 추가 / 2023-03-11
 #
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
 #
