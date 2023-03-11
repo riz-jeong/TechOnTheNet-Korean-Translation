@@ -177,3 +177,6 @@ SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇
 각 연습이 끝나면 정답을 확인할 수 있도록 솔루션을 제공합니다. 한 번 도전해 보세요!
 
 ### [연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_Exercises.md)
+
+#
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/README.md) / [다음 : FROM >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/FROM.md)

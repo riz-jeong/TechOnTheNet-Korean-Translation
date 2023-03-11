@@ -138,3 +138,6 @@ WHERE product_name <> 'Pear';
 
 이제 product_name이 'Kleenex'인 마지막 레코드가 범주 이름에 대한 NULL 값과 함께 결과 집합에 나타납니다.  
 이 레코드는 INNER 조인을 수행했을 때 결과에 나타나지 않았습니다.
+
+#
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT.md) / [다음 : Comparison Operators >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/Comparison_Operators.md)
