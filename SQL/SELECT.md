@@ -4,6 +4,7 @@
 
 ## 설명
 SQL SELECT 문은 SQL 데이터베이스의 하나 이상의 테이블에서 레코드를 검색하는 데 사용됩니다. 검색된 레코드를 결과 집합이라고 합니다.
+
 [![SELECT](https://img.youtube.com/vi/gbHXhXmACgI/0.jpg)](https://youtu.be/gbHXhXmACgI)
 
 ## 구문

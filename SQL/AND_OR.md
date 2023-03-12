@@ -5,7 +5,8 @@
 ## 설명
 SQL [AND 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md)과 [OR 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md)을 결합하여 SELECT, INSERT, UPDATE 또는 DELETE 문에서 여러 조건을 테스트할 수 있습니다.
 
-이러한 조건을 결합할 때는 괄호를 사용하여 데이터베이스가 각 조건을 평가할 순서를 알 수 있도록 하는 것이 중요합니다. (마치 수학 시간에 연산 순서를 배울 때와 같습니다!)  
+이러한 조건을 결합할 때는 괄호를 사용하여 데이터베이스가 각 조건을 평가할 순서를 알 수 있도록 하는 것이 중요합니다. (마치 수학 시간에 연산 순서를 배울 때와 같습니다!)
+
 [![AND & OR](https://img.youtube.com/vi/l3Ky5btytSY/0.jpg)](https://youtu.be/l3Ky5btytSY)
 
 ## 구문
