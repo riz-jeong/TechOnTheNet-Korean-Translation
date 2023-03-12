@@ -4,14 +4,14 @@
 #
 ## [SQL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/tree/main/SQL)
 ### 2023-03-10 SQL 시작
-- [SELECT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT.md) 추가 / 2023-03-10
-- [FROM](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/FROM.md) 추가 / 2023-03-10
-- [Comparison Operators](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/Comparison_Operators.md) 추가 / 2023-03-10
-- [WHERE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/WHERE.md) 추가 / 2023-03-11
-- [ORDER BY](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY.md) 추가 / 2023-03-11
-- [AND](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/AND.md) 추가 / 2023-03-12
-- [OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/OR.md) 추가 / 2023-03-12
-- [AND & OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/AND_OR.md) 추가 / 2023-03-12
+- [SELECT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) 추가 / 2023-03-10
+- [FROM](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md) 추가 / 2023-03-10
+- [Comparison Operators](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md) 추가 / 2023-03-10
+- [WHERE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md) 추가 / 2023-03-11
+- [ORDER BY](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md) 추가 / 2023-03-11
+- [AND](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) 추가 / 2023-03-12
+- [OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md) 추가 / 2023-03-12
+- [AND & OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ADD_OR.md) 추가 / 2023-03-12
 #
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
 #

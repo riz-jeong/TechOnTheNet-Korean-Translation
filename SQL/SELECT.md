@@ -1,6 +1,6 @@
 # SQL : SELECT 문
 
-이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_Exercises.md)를 통해 SQL **SELECT 문**을 사용하는 방법을 설명합니다.
+이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT_Exercises.md)를 통해 SQL **SELECT 문**을 사용하는 방법을 설명합니다.
 
 ## 설명
 SQL SELECT 문은 SQL 데이터베이스의 하나 이상의 테이블에서 레코드를 검색하는 데 사용됩니다. 검색된 레코드를 결과 집합이라고 합니다.
@@ -179,7 +179,7 @@ SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇
 이 연습을 통해 SELECT 문을 사용하는 실력을 시험해 볼 수 있습니다.  
 각 연습이 끝나면 정답을 확인할 수 있도록 솔루션을 제공합니다. 한 번 도전해 보세요!
 
-### [연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT_Exercises.md)
+### [연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT_Exercises.md)
 
 #
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/README.md) / [다음 : FROM >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/FROM.md)
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/README.md) / [다음 : FROM >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md)

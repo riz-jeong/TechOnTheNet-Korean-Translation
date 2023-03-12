@@ -66,7 +66,7 @@ ORDER BY city DESC;
 
 #
 ## 예제 - FROM 절의 두 테이블(INNER JOIN)
-FROM 절을 사용하여 두 테이블을 함께 [INNER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/INNER_JOIN.md)하는 방법을 살펴보겠습니다.  
+FROM 절을 사용하여 두 테이블을 함께 [INNER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/INNER_JOIN.md)하는 방법을 살펴보겠습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
 
 | product_id | product_name | category_id |
@@ -112,7 +112,7 @@ WHERE product_name <> 'Pear';
 
 #
 ## 예제 - FROM 절의 두 테이블(OUTER JOIN)
-[OUTER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/OUTER_JOIN.md)을 사용하여 두 테이블을 조인할 때 FROM 절을 사용하는 방법을 살펴보겠습니다.  
+[OUTER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OUTER_JOIN.md)을 사용하여 두 테이블을 조인할 때 FROM 절을 사용하는 방법을 살펴보겠습니다.  
 이 경우 LEFT OUTER JOIN을 살펴보겠습니다.
 
 위의 INNER JOIN 예제에서와 동일한 제품 및 카테고리 테이블을 사용하되 이번에는 LEFT OUTER JOIN을 사용하여 테이블을 조인해 보겠습니다.  
@@ -141,4 +141,4 @@ WHERE product_name <> 'Pear';
 이 레코드는 INNER 조인을 수행했을 때 결과에 나타나지 않았습니다.
 
 #
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT.md) / [다음 : Comparison Operators >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/Comparison_Operators.md)
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) / [다음 : Comparison Operators >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md)

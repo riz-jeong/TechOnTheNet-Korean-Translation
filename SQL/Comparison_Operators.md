@@ -236,13 +236,13 @@ WHERE product_id <= 5;
 #
 ## 예제 - 고급 연산자
 고급 비교 연산자에 대해 자세히 알아보려면 각 연산자에 대해 개별적으로 설명하는 튜토리얼을 작성해 두었습니다.  이러한 주제는 나중에 다루거나 지금 바로 튜토리얼 중 하나로 이동할 수 있습니다.
-- [IN ( )](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/IN.md)
-- [NOT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/NOT.md)
-- [BETWEEN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/BETWEEN.md)
-- [IS NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/IS_NULL.md)
-- [IS NOT NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/IS_NOT_NULL.md)
-- [LIKE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/LIKE.md)
-- [EXISTS](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/EXISTS.md)
+- [IN ( )](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)
+- [NOT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md)
+- [BETWEEN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/BETWEEN.md)
+- [IS NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)
+- [IS NOT NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NOT_NULL.md)
+- [LIKE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)
+- [EXISTS](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/EXISTS.md)
 
 #
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/FROM.md) / [다음 : WHERE >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/WHERE.md)
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md) / [다음 : WHERE >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md)

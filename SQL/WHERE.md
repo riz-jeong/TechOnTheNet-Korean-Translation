@@ -153,4 +153,4 @@ OR (product_name = 'Pear');
 괄호는 AND 및 OR 조건이 평가되는 순서를 결정합니다. 수학 시간에 배운 연산 순서와 같습니다!
 
 #
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/Comparison_Operators.md) / [다음 : ORDER BY >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY.md)
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md) / [다음 : ORDER BY >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md)

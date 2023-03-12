@@ -14,7 +14,7 @@ AND condition2
 AND condition_n;
 ```
 ### 매개변수 및 인수
-#### condition1, condition2, ... condition_n
+#### **condition1, condition2, ... condition_n**
 - 각 레코드에 대해 테스트할 여러 조건. 결과 집합에 포함되려면 모든 조건이 충족되어야 합니다.
 
 #
@@ -24,7 +24,7 @@ AND condition_n;
 
 #
 ## 예제 - SELECT 문과 함께 "AND" 조건 사용
-[SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/SELECT.md)에서 AND 조건을 사용하여 레코드를 선택하기 위해 충족해야 하는 두 가지 조건을 테스트하는 방법을 보여주는 예제를 살펴보겠습니다.
+[SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 AND 조건을 사용하여 레코드를 선택하기 위해 충족해야 하는 두 가지 조건을 테스트하는 방법을 보여주는 예제를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
@@ -55,7 +55,7 @@ ORDER BY last_name;
 
 #
 ## 예제 - UPDATE 문과 함께 "AND" 조건 사용
-이제 [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/UPDATE.md)에서 AND 조건을 사용하는 방법의 예를 살펴보겠습니다. 레코드가 업데이트되기 전에 여러 조건이 충족되는지 테스트합니다.
+이제 [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 AND 조건을 사용하는 방법의 예를 살펴보겠습니다. 레코드가 업데이트되기 전에 여러 조건이 충족되는지 테스트합니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
@@ -100,7 +100,7 @@ SELECT * FROM suppliers;
 
 #
 ## 예제 - DELETE 문과 함께 "AND" 조건 사용
-다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/DELETE.md)에서 AND 조건을 사용하여 레코드가 삭제되기 전에 두 가지 조건이 충족되는지 테스트하는 방법을 살펴보겠습니다.
+다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)에서 AND 조건을 사용하여 레코드가 삭제되기 전에 두 가지 조건이 충족되는지 테스트하는 방법을 살펴보겠습니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
 
@@ -136,4 +136,4 @@ SELECT * FROM products;
 이 예제에서는 category_id가 50이고 product_name이 Pear가 아닌 모든 레코드를 products 테이블에서 삭제합니다.
 
 #
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/ORDER_BY.md) / [다음 : OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/master/SQL/OR.md)
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md) / [다음 : OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md)
