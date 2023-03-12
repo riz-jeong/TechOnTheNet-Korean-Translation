@@ -11,7 +11,7 @@
 - [ORDER BY](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md) 추가 / 2023-03-11
 - [AND](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) 추가 / 2023-03-12
 - [OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md) 추가 / 2023-03-12
-- [AND & OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ADD_OR.md) 추가 / 2023-03-12
+- [AND & OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) 추가 / 2023-03-12
 #
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
 #
