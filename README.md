@@ -2,7 +2,7 @@
 
 ### [TechOnTheNet](https://www.techonthenet.com/index.php)에서 SQL을 공부하면서 공부한 내용과 그 번역을 정리하여 올리고 있습니다.
 #
-## [SQL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/tree/main/SQL)
+## **[SQL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/tree/main/SQL)**
 ### 2023-03-10 SQL 시작
 - [SELECT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) 추가 / 2023-03-10
 - [FROM](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md) 추가 / 2023-03-10
