@@ -13,6 +13,7 @@
 - [OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md) 추가 / 2023-03-12
 - [AND & OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) 추가 / 2023-03-12
 - [DISTINCT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) 추가 / 2023-03-13
+- [IN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md) 추가 / 2023-03-13
 #
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
 #
