@@ -20,7 +20,8 @@ OR condition_n;
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/or_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/or_ddl.php)**
 
 ---
 ## 예제 - SELECT 문과 함께 "OR" 조건 사용
@@ -136,4 +137,4 @@ SELECT * FROM products;
 이 조건 예제는 products 테이블에서 product_name이 Pear, product_name이 Apple 또는 category_id = 25인 모든 레코드를 삭제합니다.
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) / [다음 : AND & OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) / [다음 : AND & OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md)**

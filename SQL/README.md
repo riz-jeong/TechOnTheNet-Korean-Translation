@@ -12,7 +12,7 @@
 
 이제 시작하겠습니다!
 
-### **[튜토리얼 시작](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)**
+**[튜토리얼 시작](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)**
 
 ---
 혹은 SQL의 항목으로 바로 이동합니다.

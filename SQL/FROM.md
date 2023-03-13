@@ -26,7 +26,8 @@ ON table1.column1 = table2.column1 ]
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/from_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/from_ddl.php)**
 
 ---
 ## 예제 - FROM 절에 나열된 테이블 하나
@@ -141,4 +142,4 @@ WHERE product_name <> 'Pear';
 이 레코드는 INNER 조인을 수행했을 때 결과에 나타나지 않았습니다.
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) / [다음 : Comparison Operators >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) / [다음 : Comparison Operators >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md)**

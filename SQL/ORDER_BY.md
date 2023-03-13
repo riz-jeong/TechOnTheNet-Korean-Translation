@@ -31,7 +31,8 @@ ORDER BY expression [ ASC | DESC ];
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/order_by_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/order_by_ddl.php)**
 
 ---
 ## 예제 - 오름차순으로 결과 정렬
@@ -188,4 +189,4 @@ ORDER BY category_id DESC, product_name ASC;
 이 예제에서는 category_id 필드를 기준으로 내림차순으로 정렬된 레코드를 반환하고, product_name을 기준으로 오름차순으로 정렬된 2차 정렬을 수행합니다.
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md) / [다음 : AND >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md) / [다음 : AND >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md)**

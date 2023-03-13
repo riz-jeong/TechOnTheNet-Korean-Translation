@@ -17,7 +17,8 @@ WHERE conditions;
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/where_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/where_ddl.php)**
 
 ---
 ## 예제 - WHERE 절의 하나의 조건
@@ -153,4 +154,4 @@ OR (product_name = 'Pear');
 괄호는 AND 및 OR 조건이 평가되는 순서를 결정합니다. 수학 시간에 배운 연산 순서와 같습니다!
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md) / [다음 : ORDER BY >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md) / [다음 : ORDER BY >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md)**

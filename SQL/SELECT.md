@@ -32,7 +32,8 @@ FROM tables
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/select_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/select_ddl.php)**
 
 ---
 ## 예제 - 테이블에서 모든 필드 선택
@@ -178,7 +179,7 @@ SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇
 이 연습을 통해 SELECT 문을 사용하는 실력을 시험해 볼 수 있습니다.  
 각 연습이 끝나면 정답을 확인할 수 있도록 솔루션을 제공합니다. 한 번 도전해 보세요!
 
-### [연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT_Exercises.md)
+**[연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT_Exercises.md)**
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/README.md) / [다음 : FROM >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/README.md) / [다음 : FROM >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md)**

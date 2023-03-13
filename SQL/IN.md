@@ -25,7 +25,8 @@ expression IN (subquery);
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/in_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/in_ddl.php)**
 
 ---
 ## 예제 - 문자 값과 함께 IN 조건 사용
@@ -157,4 +158,4 @@ AND product_name <> 'Bread';
 보시다시피, IN 조건이 부정되기 때문에 동일한 SQL 문은 OR 조건 대신 AND 조건을 사용하여 작성됩니다.
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) / [다음 : IS NULL >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) / [다음 : IS NULL >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)**

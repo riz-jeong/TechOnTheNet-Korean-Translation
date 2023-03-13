@@ -6,7 +6,7 @@ SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇
 
 시작하세요!
 
-### [튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)
+**[튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)**
 
 ---
 ## 연습 문제 #1
@@ -277,4 +277,4 @@ ORDER BY last_name, customer_id DESC;
 | 5000        | Smith     |
 
 ---
-### [튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)
+**[튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)**

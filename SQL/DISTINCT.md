@@ -28,7 +28,8 @@ FROM tables
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/distinct_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/distinct_ddl.php)**
 
 ---
 ## 예제 - 열에서 고유 값 찾기
@@ -126,4 +127,4 @@ ORDER BY category_id;
 이 예제에서 쿼리는 category_id 열에 있는 고유 값을 반환합니다. 결과 집합의 첫 번째 행에서 볼 수 있듯이, NULL은 DISTINCT 절에서 반환되는 고유 값입니다.
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) / [다음 : IN >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) / [다음 : IN >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)**

@@ -17,7 +17,8 @@ expression IS NOT NULL
 ---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
-### [DDL/DML 받기](https://www.techonthenet.com/sql/is_not_null_ddl.php)
+
+**[DDL/DML 받기](https://www.techonthenet.com/sql/is_not_null_ddl.php)**
 
 ---
 ## 예제 - SELECT 문과 함께 IS NOT NULL 사용
@@ -125,4 +126,4 @@ SELECT * FROM orders;
 이 예제에서는 customer_id에 NULL 값이 포함되지 않은 모든 레코드를 orders 테이블에서 삭제합니다.
 
 ---
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md) / [다음 : LIKE >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md) / [다음 : LIKE >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)**
