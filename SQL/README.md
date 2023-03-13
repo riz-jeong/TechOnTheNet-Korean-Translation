@@ -14,7 +14,7 @@
 
 ### **[튜토리얼 시작](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)**
 
-#
+---
 혹은 SQL의 항목으로 바로 이동합니다.
 
 ## SQL 쿼리 유형
@@ -34,28 +34,28 @@
 | [MINUS 연산자](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/MINUS.md) | 하나의 결과 집합에서 다른 결과 집합을 뺀 값 |
 | [EXCEPT 연산자](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/EXCEPT.md) | 하나의 결과 집합에서 다른 결과 집합을 뺀 값 |
 
-#
+---
 ## SQL 비교 연산자
 
 | | |
 | :- | :- |
 | [비교 연산자](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md) | =, <>, !=, >, < 등과 같은 연산자 |
 
-#
+---
 ## SQL 조인
 
 | | |
 | :- | :- |
 | [JOIN 테이블](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/JOINS.md) | 내부 및 외부 조인 |
 
-#
+---
 ## SQL 별칭
 
 | | |
 | :- | :- |
 | [ALIASES](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ALIAS.md) | 열 또는 테이블의 임시 이름 만들기 |
 
-#
+---
 ## SQL 절
 
 | | |
@@ -67,7 +67,7 @@
 | [GROUP BY 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/GROUP_BY.md) | 하나 이상의 열로 그룹화 |
 | [HAVING 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/COHAVINGUNT.md) | 반환된 행의 그룹 제한 |
 
-#
+---
 ## SQL 함수
 
 | | |
@@ -78,7 +78,7 @@
 | [MAX 함수](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/MAX.md) | 표현식의 최대값을 반환 |
 | [AVG 함수](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AVG.md) | 표현식의 평균값을 반환 |
 
-#
+---
 ## SQL 조건
 
 | | |
@@ -94,7 +94,7 @@
 | [BETWEEN 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/BETWEEN.md) | 범위 내 검색(포함) |
 | [EXISTS 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/EXISTS.md) | 하위 쿼리가 하나 이상의 행을 반환하면 조건충족 |
 
-#
+---
 ## SQL 테이블 및 뷰
 
 | | |
@@ -107,7 +107,7 @@
 | [LOCAL TEMP 테이블](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LOCAL_TEMP.md) | 모듈 및 임베디드 SQL 프로그램 내에서 구분되는 테이블 |
 | [SQL VIEW](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/VIEW.md) | 가상 테이블(다른 테이블의 보기) |
 
-#
+---
 ## SQL 키, 제약 조건 및 인덱스
 
 | | |
@@ -115,14 +115,14 @@
 | [기본 키](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Primary_Keys.md) | 	기본 키 생성 또는 삭제 |
 | [인덱스](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Indexes.md) | 인덱스 생성 및 삭제(성능 튜닝) |
 
-#
+---
 ## SQL 데이터 형식
 
 | | |
 | :- | :- |
 | [데이터 형식](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Data_Types.md) | SQL의 데이터 형식 |
 
-#
+---
 ## SQL 프로그래밍
 
 | | |

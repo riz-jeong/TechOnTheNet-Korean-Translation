@@ -25,12 +25,12 @@ OR condition_n;
 - SQL AND 및 OR 조건을 사용하면 여러 조건을 테스트할 수 있습니다.
 - 괄호 안의 연산 순서를 잊지 마세요!
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/and_or_ddl.php)
 
-#
+---
 ## 예제 - SELECT 문과 함께 "AND" 및 "OR" 조건 사용
 이제 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 AND 조건과 OR 조건을 함께 사용하는 방법의 예를 살펴보겠습니다.
 
@@ -65,7 +65,7 @@ OR (supplier_id = 100);
 
 이 예제에서는 state가 California이지만 supplier_id가 900이 아닌 모든 공급업체가 반환됩니다. 이 쿼리는 또한 supplier_id가 100인 모든 공급업체를 반환합니다. 괄호는 AND 및 OR 조건이 평가되는 순서를 결정합니다. 수학 시간에 연산 순서에서 배운 것과 같습니다!
 
-#
+---
 ## 예제 - UPDATE 문과 함께 "AND" 및 "OR" 조건 사용
 다음으로 [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 AND 및 OR 조건을 사용하는 방법을 살펴보겠습니다.
 
@@ -104,7 +104,7 @@ SELECT * FROM customers;
 
 이 예제에서는 customers 테이블의 모든 favorite_website 값을 customer_id가 6000이고 customer_id가 7000보다 크며 last_name이 'Johnson'이 아닌 레코드가 있는 'techonthenet.com'으로 업데이트합니다. 보시다시피 세 번째 행과 다섯 번째 행의 favorite_website 값이 업데이트되었습니다.
 
-#
+---
 ## 예제 - DELETE 문과 함께 "AND" 및 "OR" 조건 사용
 다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)을 사용하여 AND 및 OR 조건을 결합하여 레코드를 삭제하는 방법을 살펴보겠습니다.
 
@@ -141,5 +141,5 @@ SELECT * FROM products;
 
 이 예제에서는 category_id가 25인 제품 테이블에서 모든 레코드를 삭제합니다. 또한 product_id가 4보다 작고 product_name이 'Banana'와 같지 않은 모든 레코드가 제품 테이블에서 삭제됩니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md) / [다음 : DISTINCT >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md)

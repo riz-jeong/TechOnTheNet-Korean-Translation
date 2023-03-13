@@ -29,12 +29,12 @@ FROM tables
 #### **DESC**
 - 선택 사항입니다. DESC는 결과 집합을 표현식별로 내림차순으로 정렬합니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/select_ddl.php)
 
-#
+---
 ## 예제 - 테이블에서 모든 필드 선택
 SQL SELECT 문을 사용하여 테이블에서 모든 필드를 선택하는 방법을 보여주는 예제를 살펴보겠습니다.
 
@@ -67,7 +67,7 @@ ORDER BY last_name ASC;
 이 예제에서는 *를 사용하여 favorite_website가 'techonthenet.com'인 customers 테이블의 모든 필드를 표시했습니다.  
 결과 집합은 last_name을 기준으로 오름차순으로 정렬됩니다.
 
-#
+---
 ## 예제 - 테이블에서 개별 필드 선택
 테이블의 모든 필드가 아니라 테이블에서 개별 필드를 선택하려면 SQL SELECT 문을 사용할 수도 있습니다.
 
@@ -84,8 +84,6 @@ ORDER BY last_name ASC;
 | 700         | Dole Food Company | Westlake Village | California |
 | 800         | Flowers Foods     | Thomasville      | Georgia    |
 | 900         | Electronic Arts   | Redwood City     | California |
-
-
 
 이제 customers 테이블에서 모든 열을 선택하여 SELECT 문이 어떻게 작동하는지 살펴보겠습니다.  
 다음 SELECT 문을 입력합니다. **[Try it](https://www.techonthenet.com/sql/select_try_sql.php)**
@@ -107,7 +105,7 @@ ORDER BY supplier_name ASC, city DESC;
 이 예제에서는 supplier_id 값이 500보다 큰 suppliers 테이블에서 supplier_name 및 city 필드만 반환합니다.  
 결과는 supplier_name을 오름차순으로 정렬한 다음 city를 내림차순으로 정렬합니다.
 
-#
+---
 ## 예제 - 여러 테이블에서 개별 필드 선택
 SQL SELECT 문을 사용하여 여러 테이블에서 필드를 검색할 수도 있습니다.
 
@@ -173,7 +171,7 @@ ORDER BY orders.order_id;
 
 이 예제에서는 orders.*를 사용하여 orders 테이블에서 모든 필드를 선택한 다음 customers 테이블에서 last_name 필드를 선택한다는 것을 나타냅니다.
 
-#
+---
 ## 연습 문제
 SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇 가지 연습 문제를 풀어보세요.
 
@@ -182,5 +180,5 @@ SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇
 
 ### [연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT_Exercises.md)
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/README.md) / [다음 : FROM >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md)

@@ -23,12 +23,12 @@ ON table1.column1 = table2.column1 ]
 - SQL 문에서 FROM 절을 사용하는 경우 FROM 절에 나열된 테이블이 하나 이상 있어야 합니다.
 - SQL FROM 절에 두 개 이상의 테이블이 나열되어 있는 경우 일반적으로 이러한 테이블은 INNER 또는 OUTER 조인을 사용하여 조인됩니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/from_ddl.php)
 
-#
+---
 ## 예제 - FROM 절에 나열된 테이블 하나
 먼저 SQL 문에서 하나의 테이블만 나열하는 FROM 절을 사용하는 방법부터 살펴보겠습니다.
 
@@ -64,7 +64,7 @@ ORDER BY city DESC;
 이 예제에서는 FROM 절을 사용하여 suppliers라는 테이블을 나열했습니다.  
 이 쿼리에서는 테이블을 하나만 나열했기 때문에 조인이 수행되지 않습니다.
 
-#
+---
 ## 예제 - FROM 절의 두 테이블(INNER JOIN)
 FROM 절을 사용하여 두 테이블을 함께 [INNER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/INNER_JOIN.md)하는 방법을 살펴보겠습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
@@ -110,7 +110,7 @@ WHERE product_name <> 'Pear';
 이 예제에서는 FROM 절을 사용하여 두 테이블(products 및 categories)을 조인합니다.  
 이 경우 FROM 절을 사용하여 두 테이블의 category_id 열을 기준으로 products 테이블과 categories 테이블 간에 INNER JOIN을 지정합니다.
 
-#
+---
 ## 예제 - FROM 절의 두 테이블(OUTER JOIN)
 [OUTER JOIN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OUTER_JOIN.md)을 사용하여 두 테이블을 조인할 때 FROM 절을 사용하는 방법을 살펴보겠습니다.  
 이 경우 LEFT OUTER JOIN을 살펴보겠습니다.
@@ -140,5 +140,5 @@ WHERE product_name <> 'Pear';
 이제 product_name이 'Kleenex'인 마지막 레코드가 범주 이름에 대한 NULL 값과 함께 결과 집합에 나타납니다.  
 이 레코드는 INNER 조인을 수행했을 때 결과에 나타나지 않았습니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) / [다음 : Comparison Operators >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md)

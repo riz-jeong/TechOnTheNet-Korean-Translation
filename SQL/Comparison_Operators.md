@@ -22,12 +22,12 @@
 | LIKE        | %와 _를 사용하여 패턴 일치                      |
 | EXISTS      | 하위 쿼리가 하나 이상의 행을 반환하면 조건 충족 |
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/comparison_operators_ddl.php)
 
-#
+---
 ## 예제 - 동등 연산자
 SQL에서는 = 연산자를 사용하여 쿼리에서 동일성 여부를 테스트할 수 있습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
@@ -58,7 +58,7 @@ WHERE supplier_name = 'Microsoft';
 
 이 예제에서 위의 SELECT 문은 suppliers 테이블에서 supplier_name이 Microsoft와 같은 모든 행을 반환합니다.
 
-#
+---
 ## 예제 - 부등 연산자
 SQL에서는 쿼리에서 부등식을 테스트하는 두 가지 방법이 있습니다.  
 <> 연산자 또는 != 연산자를 사용할 수 있습니다. 둘 다 동일한 결과를 반환합니다.  
@@ -103,7 +103,7 @@ WHERE supplier_name != 'Microsoft';
 
 이 예제에서 두 SELECT 문은 suppliers 테이블에서 supplier_name이 Microsoft와 같지 않은 모든 행을 반환합니다.
 
-#
+---
 ## 예제 - 보다 큼 연산자
 SQL에서 > 연산자를 사용하여 보다 큼 연산식을 테스트할 수 있습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
@@ -134,7 +134,7 @@ WHERE customer_id > 6000;
 이 예제에서 SELECT 문은 customer_id가 6000보다 큰 customers 테이블의 모든 행을 반환합니다.  
 6000과 같은 customer_id는 결과 집합에 포함되지 않습니다.
 
-#
+---
 ## 예제 - 크거나 같음 연산자
 SQL에서는 >= 연산자를 사용하여 크거나 같음 연산식을 테스트할 수 있습니다.  
 이전 예제와 동일한 customers 테이블을 사용하겠습니다.
@@ -166,7 +166,7 @@ WHERE customer_id >= 6000;
 이 예제에서 SELECT 문은 customers 테이블에서 customer_id가 6000보다 크거나 같은 모든 행을 반환합니다.  
 이 경우 6000과 같은 supplier_id가 결과 집합에 포함됩니다.
 
-#
+---
 ## 예제 - 보다 작음 연산자
 SQL에서 < 연산자를 사용하여 보다 작음 연산식을 테스트할 수 있습니다.  
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
@@ -199,7 +199,7 @@ WHERE product_id < 5;
 이 예제에서 SELECT 문은 products 테이블에서 product_id가 5보다 작은 모든 행을 반환합니다.  
 5와 같은 product_id는 결과 집합에 포함되지 않습니다.
 
-#
+---
 ## 예제 - 작거나 같음 연산자
 SQL에서는 <= 연산자를 사용하여 작거나 같음 연산식을 테스트할 수 있습니다.  
 이전 예제와 동일한 products 테이블을 사용하겠습니다.
@@ -233,7 +233,7 @@ WHERE product_id <= 5;
 이 예제에서 SELECT 문은 products 테이블에서 product_id가 5보다 작거나 같은 모든 행을 반환합니다.  
 이 경우 5와 같은 product_id가 결과 집합에 포함됩니다.
 
-#
+---
 ## 예제 - 고급 연산자
 고급 비교 연산자에 대해 자세히 알아보려면 각 연산자에 대해 개별적으로 설명하는 튜토리얼을 작성해 두었습니다.  이러한 주제는 나중에 다루거나 지금 바로 튜토리얼 중 하나로 이동할 수 있습니다.
 - [IN ( )](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)
@@ -244,5 +244,5 @@ WHERE product_id <= 5;
 - [LIKE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)
 - [EXISTS](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/EXISTS.md)
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md) / [다음 : WHERE >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md)

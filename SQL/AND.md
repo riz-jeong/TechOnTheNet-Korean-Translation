@@ -17,12 +17,12 @@ AND condition_n;
 #### **condition1, condition2, ... condition_n**
 - 각 레코드에 대해 테스트할 여러 조건. 결과 집합에 포함되려면 모든 조건이 충족되어야 합니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/and_ddl.php)
 
-#
+---
 ## 예제 - SELECT 문과 함께 "AND" 조건 사용
 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 AND 조건을 사용하여 레코드를 선택하기 위해 충족해야 하는 두 가지 조건을 테스트하는 방법을 보여주는 예제를 살펴보겠습니다.
 
@@ -53,7 +53,7 @@ ORDER BY last_name;
 
 이 예제에서는 favorite_website이 techonthenet.com이고 customer_id가 6000보다 큰 모든 고객을 반환합니다. SQL SELECT 문에 *가 사용되었으므로 customers 테이블의 모든 필드가 결과 집합에 나타납니다.
 
-#
+---
 ## 예제 - UPDATE 문과 함께 "AND" 조건 사용
 이제 [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 AND 조건을 사용하는 방법의 예를 살펴보겠습니다. 레코드가 업데이트되기 전에 여러 조건이 충족되는지 테스트합니다.
 
@@ -98,7 +98,7 @@ SELECT * FROM suppliers;
 
 이 예제에서는 suppliers 테이블의 모든 supplier_name 값을 city가 Redwood City이고 supplier_id가 900이 아닌 TBD로 업데이트합니다. 보시다시피 세 번째 행의 supplier_name이 업데이트되었습니다.
 
-#
+---
 ## 예제 - DELETE 문과 함께 "AND" 조건 사용
 다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)에서 AND 조건을 사용하여 레코드가 삭제되기 전에 두 가지 조건이 충족되는지 테스트하는 방법을 살펴보겠습니다.
 
@@ -135,5 +135,5 @@ SELECT * FROM products;
 
 이 예제에서는 category_id가 50이고 product_name이 Pear가 아닌 모든 레코드를 products 테이블에서 삭제합니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md) / [다음 : OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md)

@@ -22,12 +22,12 @@ expression IN (subquery);
 #### **subquery(하위 쿼리)**
 - 결과 집합이 표현식에 대해 테스트되는 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)입니다. 이러한 값 중 표현식과 일치하는 값이 하나라도 있으면 IN 조건은 참으로 평가됩니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/in_ddl.php)
 
-#
+---
 ## 예제 - 문자 값과 함께 IN 조건 사용
 IN 조건은 SQL의 모든 데이터 유형에 사용할 수 있습니다. 문자(문자열) 값에 IN 조건을 사용하는 방법을 살펴보겠습니다.
 
@@ -71,7 +71,7 @@ OR supplier_name = 'Flowers Foods';
 ```
 보시다시피 IN 조건을 사용하면 여러 개의 OR 조건을 사용하는 것보다 더 읽기 쉽고 효율적으로 사용할 수 있습니다.
 
-#
+---
 ## 예제 - 숫자 값과 함께 IN 조건 사용
 다음으로 숫자 값과 함께 IN 조건을 사용하는 방법을 살펴보겠습니다.
 
@@ -113,7 +113,7 @@ OR customer_id = 8000
 OR customer_id = 9000;
 ```
 
-#
+---
 ## 예제 - NOT 연산자와 함께 IN 조건 사용
 마지막으로 NOT 연산자와 함께 IN 조건을 사용하는 방법을 살펴보겠습니다. NOT 연산자는 조건을 부정하는 데 사용됩니다. IN 조건과 함께 NOT 연산자를 사용하면 NOT IN 조건이 생성됩니다. 이렇게 하면 표현식이 목록에 없는지 테스트합니다.
 
@@ -156,5 +156,5 @@ AND product_name <> 'Bread';
 ```
 보시다시피, IN 조건이 부정되기 때문에 동일한 SQL 문은 OR 조건 대신 AND 조건을 사용하여 작성됩니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) / [다음 : IS NULL >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)

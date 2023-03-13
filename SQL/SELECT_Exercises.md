@@ -1,12 +1,14 @@
 # SQL : SELECT 문 연습 문제
+
 SQL SELECT 문을 사용하여 자신의 실력을 테스트하고 싶다면 몇 가지 연습 문제를 풀어보세요.  
 이러한 연습 문제를 통해 SELECT 문을 사용하여 실력을 테스트할 수 있습니다.  
 각 연습이 끝나면 정답을 확인할 수 있도록 해답이 제공됩니다.
 
 시작하세요!
+
 ### [튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)
 
-#
+---
 ## 연습 문제 #1
 아래 employees 테이블을 기준으로 employees 테이블에서 salary가 $52,500 이하인 모든 필드를 선택합니다. (정렬할 필요 없음)
 ```SQL
@@ -53,7 +55,7 @@ WHERE salary <= 52500;
 | --------------- | --------- | ---------- | ------ | ------- |
 | 1004            | Horvath   | Jack       | 42000  | 501     |
 
-#
+---
 ## 연습 문제 #2
 아래 suppliers 테이블을 기준으로 'California' state에 있는 고유한 city 값을 선택하고 결과를 city 별로 내림차순으로 정렬합니다.
 ```SQL
@@ -127,7 +129,7 @@ ORDER BY city DESC;
 | Redwood City     |
 | Mountain View    |
 
-#
+---
 ## 연습 문제 #3
 아래의 customers 테이블과 orders 테이블을 기준으로 customers 테이블에서 customer_id 및 last_name을 선택하고,  
 customers 테이블과 orders 테이블 모두에 일치하는 customer_id 값이 있는 orders 테이블에서 order_date를 선택합니다.  
@@ -222,7 +224,7 @@ ORDER BY customers.customer_id DESC;
 | 7000        | Reynolds  | 2016/04/18 |
 | 4000        | Jackson   | 2016/04/20 |
 
-#
+---
 ## 연습 문제 #4
 연습 문제 #3의 customers 및 orders 테이블을 기반으로,  
 customers 테이블에서 orders 테이블에 해당 customer_id에 대한 레코드가 있는 customer_id 및 last_name을 선택합니다.  
@@ -274,5 +276,5 @@ ORDER BY last_name, customer_id DESC;
 | 7000        | Reynolds  |
 | 5000        | Smith     |
 
-#
+---
 ### [튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)

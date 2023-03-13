@@ -17,12 +17,12 @@ OR condition_n;
 #### **condition1, condition2, ... condition_n**
 - 각 레코드에 대해 테스트할 여러 조건. 하나 이상의 조건을 충족하면 결과 집합에 포함할 수 있습니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/or_ddl.php)
 
-#
+---
 ## 예제 - SELECT 문과 함께 "OR" 조건 사용
 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 OR 조건을 사용하여 레코드를 선택하려면 어떤 조건이 충족되어야 하는 여러 조건을 테스트하는 방법을 보여주는 예제를 살펴 보겠습니다.
 
@@ -57,7 +57,7 @@ ORDER BY supplier_name;
 
 이 예제에서는 Mountain View 시에 있거나 supplier_id가 100인 모든 공급업체가 반환됩니다. [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에 *가 사용되었으므로 suppliers 테이블의 모든 필드가 결과 집합에 나타납니다.
 
-#
+---
 ## 예제 - UPDATE 문과 함께 "OR" 조건 사용
 OR 조건은 SQL [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 여러 조건을 테스트하는 데 사용할 수 있습니다.
 
@@ -97,7 +97,7 @@ SELECT * FROM customers;
 
 이 예제에서는 customers 테이블의 모든 favorite_website 값을 customer_id가 5000이거나 last_name이 Reynolds이거나 first_name이 Paige인 techonthenet.com으로 업데이트합니다. 보시다시피 두 번째, 네 번째 및 다섯 번째 행의 favorite_website 필드가 업데이트됩니다.
 
-#
+---
 ## 예제 - UPDATE 문과 함께 "OR" 조건 사용
 다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)에서 OR 조건을 사용하여 레코드가 삭제되기 전에 조건이 충족되는지 테스트하는 방법을 살펴보겠습니다.
 
@@ -135,5 +135,5 @@ SELECT * FROM products;
 
 이 조건 예제는 products 테이블에서 product_name이 Pear, product_name이 Apple 또는 category_id = 25인 모든 레코드를 삭제합니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) / [다음 : AND & OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md)

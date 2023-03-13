@@ -28,12 +28,12 @@ ORDER BY expression [ ASC | DESC ];
 ## 참고
 - ORDER BY 절에 ASC 또는 DESC 수정자가 제공되지 않으면 결과가 표현식별로 오름차순으로 정렬됩니다. 이는 ORDER BY expression ASC와 동일합니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/order_by_ddl.php)
 
-#
+---
 ## 예제 - 오름차순으로 결과 정렬
 결과를 오름차순으로 정렬하려면 ASC 속성을 지정하면 됩니다. ORDER BY 절의 필드 뒤에 값(ASC 또는 DESC)을 지정하지 않으면 기본적으로 정렬 순서가 오름차순으로 지정됩니다. 이에 대해 자세히 살펴보겠습니다.
 
@@ -73,7 +73,7 @@ ORDER BY last_name ASC;
 ```
 대부분의 프로그래머는 오름차순으로 정렬할 경우 ASC 속성을 생략합니다.
 
-#
+---
 ## 예제 - 내림차순으로 결과 정렬
 결과 집합을 내림차순으로 정렬할 때는 ORDER BY 절에 DESC 속성을 사용합니다. 자세히 살펴보겠습니다.
 
@@ -109,7 +109,7 @@ ORDER BY supplier_id DESC;
 
 이 예제에서는 supplier_id 필드를 기준으로 결과 집합을 내림차순으로 정렬합니다.
 
-#
+---
 ## 예제 - 상대적 위치에 따른 결과 정렬
 결과 집합의 첫 번째 필드가 1, 두 번째 필드가 2, 세 번째 필드가 3인 결과 집합의 상대적 위치별로 정렬하려면 SQL ORDER BY 절을 사용할 수도 있습니다.
 
@@ -151,7 +151,7 @@ WHERE product_name <> 'Bread'
 ORDER BY product_id DESC;
 ```
 
-#
+---
 ## 예제 - ASC 및 DESC 속성 모두 사용
 SQL ORDER BY 절을 사용하여 결과 집합을 정렬하는 경우, 단일 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 ASC 및 DESC 속성을 사용할 수 있습니다.
 
@@ -187,5 +187,5 @@ ORDER BY category_id DESC, product_name ASC;
 
 이 예제에서는 category_id 필드를 기준으로 내림차순으로 정렬된 레코드를 반환하고, product_name을 기준으로 오름차순으로 정렬된 2차 정렬을 수행합니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md) / [다음 : AND >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md)

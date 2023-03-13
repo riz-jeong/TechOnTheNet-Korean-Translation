@@ -25,12 +25,12 @@ FROM tables
 - DISTINCT 절에 둘 이상의 표현식이 제공되면 쿼리는 나열된 표현식에 대한 고유한 조합을 검색합니다.
 - SQL에서 DISTINCT 절은 NULL 값을 무시하지 않습니다. 따라서 SQL 문에서 DISTINCT 절을 사용하면 결과 집합에 NULL이 고유 값으로 포함됩니다.
 
-#
+---
 ## DDL/DML 예제
 튜토리얼을 따라 하려면 테이블을 생성하는 DDL과 데이터를 채우는 DML을 받으세요. 그런 다음 자신의 데이터베이스에서 예제를 사용해 보세요!
 ### [DDL/DML 받기](https://www.techonthenet.com/sql/distinct_ddl.php)
 
-#
+---
 ## 예제 - 열에서 고유 값 찾기
 DISTINCT 절을 사용하여 테이블의 한 열 내에서 고유 값을 찾는 방법을 살펴보겠습니다.
 
@@ -67,7 +67,7 @@ ORDER BY state;
 
 이 예제에서는 suppliers 테이블에서 모든 고유한 state 값을 반환하고 결과 집합에서 중복된 값을 제거합니다. 보시다시피 California 주는 결과 집합에 네 번이 아니라 한 번만 나타납니다.
 
-#
+---
 ## 예제 - 여러 열에서 고유 값 찾기
 다음으로, SELECT 문에서 두 개 이상의 필드에서 중복을 제거하기 위해 SQL DISTINCT 절을 사용하는 방법을 살펴보겠습니다.
 
@@ -92,7 +92,7 @@ ORDER BY city, state;
 
 이 예제에서는 각각의 고유한 city 및 state 조합을 반환합니다. 이 경우 DISTINCT 키워드 뒤에 나열된 각 필드에 DISTINCT가 적용됩니다. 보시다시피, California주 Redwood City는 결과 집합에 두 번이 아니라 한 번만 나타납니다.
 
-#
+---
 ## 예제 - DISTINCT 절이 NULL 값을 처리하는 방법
 마지막으로, DISTINCT 절은 SQL에서 NULL을 고유 값으로 간주하나요? 대답은 '예'입니다. 이에 대해 더 자세히 살펴보겠습니다.
 
@@ -125,5 +125,5 @@ ORDER BY category_id;
 
 이 예제에서 쿼리는 category_id 열에 있는 고유 값을 반환합니다. 결과 집합의 첫 번째 행에서 볼 수 있듯이, NULL은 DISTINCT 절에서 반환되는 고유 값입니다.
 
-#
+---
 ### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) / [다음 : IN >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)
