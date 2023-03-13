@@ -157,4 +157,4 @@ AND product_name <> 'Bread';
 보시다시피, IN 조건이 부정되기 때문에 동일한 SQL 문은 OR 조건 대신 AND 조건을 사용하여 작성됩니다.
 
 #
-### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) / [다음 : NULL >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)
+### [< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) / [다음 : IS NULL >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)
