@@ -145,7 +145,7 @@ INSERT INTO customers
 VALUES
 (9000, 'Johnson', 'Derek', 'techonthenet.com');
 ```
-### 연습 문제 #2 풀이
+### 연습 문제 #3 풀이
 다음 SELECT 문은 LIKE 조건을 사용하여 first_name이 4자리 길이고 "J"로 시작하는 레코드를 반환합니다. **[Try it](https://www.techonthenet.com/sql/like_try_sql.php)**
 ```SQL
 SELECT *
