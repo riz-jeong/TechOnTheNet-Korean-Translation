@@ -20,6 +20,8 @@
 - [IS NOT NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NOT_NULL.md) 추가 / 2023-03-13
 - [LIKE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md) 추가 / 2023-03-14
 - [NOT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md) 추가 / 2023-03-14
+- [ALIASES](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ALIASES.md) 추가 / 2023-03-15
+- [JOINS](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/JOINS.md) 추가 / 2023-03-15
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
