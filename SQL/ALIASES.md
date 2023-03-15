@@ -133,4 +133,4 @@ WHERE p.product_name <> 'Pear';
 테이블 별칭을 만들 때 FROM 절에 나열된 모든 테이블에 대해 별칭을 만들 필요는 없습니다. 일부 또는 모든 테이블에 별칭을 만들도록 선택할 수 있습니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md) / [다음 : NOT >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/JOINS.md)**
+**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md) / [다음 : JOINS >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/JOINS.md)**
