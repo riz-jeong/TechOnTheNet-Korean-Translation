@@ -196,4 +196,4 @@ SQL INSERT 문을 사용하여 실력을 테스트하고 싶다면 몇 가지 �
 **[연습 문제로 이동](INSERT_Exercises.md)**
 
 ---
-**[< 이전](BETWEEN.md) / [다음 : NOT >](UPDATE.md)**
+**[< 이전](BETWEEN.md) / [다음 : UPDATE >](UPDATE.md)**
