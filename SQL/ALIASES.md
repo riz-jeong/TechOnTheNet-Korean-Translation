@@ -84,7 +84,7 @@ GROUP BY dept_id;
 
 ---
 ## 예제 - 테이블 이름 별칭을 지정하는 방법
-테이블에 별칭을 붙이는 이유는 [FROM 절](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md)에 동일한 테이블 이름을 두 번 이상 나열하려는 경우(예: 자체 조인)이거나 테이블 이름을 줄여 SQL 문을 더 짧고 읽기 쉽게 만들려는 경우입니다.
+테이블에 별칭을 붙이는 이유는 [FROM 절](FROM.md)에 동일한 테이블 이름을 두 번 이상 나열하려는 경우(예: 자체 조인)이거나 테이블 이름을 줄여 SQL 문을 더 짧고 읽기 쉽게 만들려는 경우입니다.
 
 SQL에서 테이블 이름을 별칭으로 지정하는 방법의 예를 살펴보겠습니다.
 
@@ -133,4 +133,4 @@ WHERE p.product_name <> 'Pear';
 테이블 별칭을 만들 때 FROM 절에 나열된 모든 테이블에 대해 별칭을 만들 필요는 없습니다. 일부 또는 모든 테이블에 별칭을 만들도록 선택할 수 있습니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md) / [다음 : JOINS >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/JOINS.md)**
+**[< 이전](NOT.md) / [다음 : JOINS >](JOINS.md)**

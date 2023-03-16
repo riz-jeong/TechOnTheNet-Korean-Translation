@@ -3,7 +3,7 @@
 이 SQL 튜토리얼에서는 단일 쿼리에서 **AND 조건**과 **OR 조건**을 함께 사용하는 방법을 구문과 예제를 통해 설명합니다.
 
 ## 설명
-SQL [AND 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md)과 [OR 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md)을 결합하여 SELECT, INSERT, UPDATE 또는 DELETE 문에서 여러 조건을 테스트할 수 있습니다.
+SQL [AND 조건](AND.md)과 [OR 조건](OR.md)을 결합하여 SELECT, INSERT, UPDATE 또는 DELETE 문에서 여러 조건을 테스트할 수 있습니다.
 
 이러한 조건을 결합할 때는 괄호를 사용하여 데이터베이스가 각 조건을 평가할 순서를 알 수 있도록 하는 것이 중요합니다. (마치 수학 시간에 연산 순서를 배울 때와 같습니다!)
 
@@ -33,7 +33,7 @@ OR condition_n;
 
 ---
 ## 예제 - SELECT 문과 함께 "AND" 및 "OR" 조건 사용
-이제 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 AND 조건과 OR 조건을 함께 사용하는 방법의 예를 살펴보겠습니다.
+이제 [SELECT 문](SELECT.md)에서 AND 조건과 OR 조건을 함께 사용하는 방법의 예를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
@@ -68,7 +68,7 @@ OR (supplier_id = 100);
 
 ---
 ## 예제 - UPDATE 문과 함께 "AND" 및 "OR" 조건 사용
-다음으로 [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 AND 및 OR 조건을 사용하는 방법을 살펴보겠습니다.
+다음으로 [UPDATE 문](UPDATE.md)에서 AND 및 OR 조건을 사용하는 방법을 살펴보겠습니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
@@ -107,7 +107,7 @@ SELECT * FROM customers;
 
 ---
 ## 예제 - DELETE 문과 함께 "AND" 및 "OR" 조건 사용
-다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)을 사용하여 AND 및 OR 조건을 결합하여 레코드를 삭제하는 방법을 살펴보겠습니다.
+다음으로 [DELETE 문](DELETE.md)을 사용하여 AND 및 OR 조건을 결합하여 레코드를 삭제하는 방법을 살펴보겠습니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
 
@@ -143,4 +143,4 @@ SELECT * FROM products;
 이 예제에서는 category_id가 25인 제품 테이블에서 모든 레코드를 삭제합니다. 또한 product_id가 4보다 작고 product_name이 'Banana'와 같지 않은 모든 레코드가 제품 테이블에서 삭제됩니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md) / [다음 : DISTINCT >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md)**
+**[< 이전](OR.md) / [다음 : DISTINCT >](DISTINCT.md)**

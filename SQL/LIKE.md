@@ -1,6 +1,6 @@
 # SQL : LIKE 조건
 
-이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE_Exercises.md)를 통해서 SQL **LIKE 조건**(패턴 일치를 수행시키기 위해)을 사용하는 방법을 설명합니다.
+이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](LIKE_Exercises.md)를 통해서 SQL **LIKE 조건**(패턴 일치를 수행시키기 위해)을 사용하는 방법을 설명합니다.
 
 ## 설명
 SQL LIKE 조건을 사용하면 와일드카드를 사용하여 쿼리에서 패턴 일치를 수행할 수 있습니다. LIKE 조건은 SELECT, INSERT, UPDATE, DELETE 문의 WHERE 절에 사용됩니다.
@@ -26,7 +26,7 @@ expression LIKE pattern [ ESCAPE 'escape_character' ]
 #### **ESCAPE 'escape_character'**
 - 선택 사항입니다. 와일드카드 문자의 리터럴 인스턴스(예: % 또는 _)에서 패턴을 일치시킬 수 있습니다.
 
->팁: 문자 [데이터 형식](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Data_Types.md)으로 패턴을 일치시키는 경우, 필드 길이를 채우기 위해 끝에 공백이 추가된다는 점을 기억하세요. 이로 인해 문자열 끝에서 패턴 일치에 LIKE 조건을 사용할 때 예기치 않은 결과가 발생할 수 있습니다.
+>팁: 문자 [데이터 형식](Data_Types.md)으로 패턴을 일치시키는 경우, 필드 길이를 채우기 위해 끝에 공백이 추가된다는 점을 기억하세요. 이로 인해 문자열 끝에서 패턴 일치에 LIKE 조건을 사용할 때 예기치 않은 결과가 발생할 수 있습니다.
 
 ---
 ## DDL/DML 예제
@@ -152,7 +152,7 @@ WHERE category_id LIKE '__5';
 
 ---
 ## 예제 - LIKE 조건에 NOT 연산자 사용
-다음으로, LIKE 조건에 [NOT 연산자](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md)를 사용하는 방법의 예를 살펴보겠습니다.
+다음으로, LIKE 조건에 [NOT 연산자](NOT.md)를 사용하는 방법의 예를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
@@ -255,7 +255,7 @@ SQL LIKE 조건을 사용하여 실력을 테스트하고 싶다면 몇 가지 �
 
 이 연습을 통해 LIKE 조건으로 자신의 실력을 시험해 볼 수 있습니다. 풀어야 하는 문제가 주어집니다. 각 연습이 끝나면 정답을 확인할 수 있도록 솔루션을 제공합니다. 한번 도전해 보세요!
 
-**[연습 문제로 이동](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE_Exercises.md)**
+**[연습 문제로 이동](LIKE_Exercises.md)**
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NOT_NULL.md) / [다음 : NOT >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md)**
+**[< 이전](IS_NOT_NULL.md) / [다음 : NOT >](NOT.md)**

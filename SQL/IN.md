@@ -3,7 +3,7 @@
 이 SQL 튜토리얼에서는 구문과 예제를 통해 SQL **IN 조건**을 사용하는 방법을 설명합니다.
 
 ## 설명
-SQL IN 조건(IN 연산자라고도 함)을 사용하면 표현식이 값 목록의 어떤 값과 일치하는지 쉽게 테스트할 수 있습니다. 이 조건은 SELECT, INSERT, UPDATE 또는 DELETE 문에서 여러 개의 [OR 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md)의 필요성을 줄이는 데 사용됩니다.
+SQL IN 조건(IN 연산자라고도 함)을 사용하면 표현식이 값 목록의 어떤 값과 일치하는지 쉽게 테스트할 수 있습니다. 이 조건은 SELECT, INSERT, UPDATE 또는 DELETE 문에서 여러 개의 [OR 조건](OR.md)의 필요성을 줄이는 데 사용됩니다.
 
 ## 구문
 SQL에서 IN 조건의 구문은 다음과 같습니다.
@@ -20,7 +20,7 @@ expression IN (subquery);
 #### **value1, value2 ..., value_n**
 - 표현식에 대해 테스트할 값입니다. 이러한 값 중 하나라도 표현식과 일치하면 IN 조건이 true로 평가됩니다.
 #### **subquery(하위 쿼리)**
-- 결과 집합이 표현식에 대해 테스트되는 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)입니다. 이러한 값 중 표현식과 일치하는 값이 하나라도 있으면 IN 조건은 참으로 평가됩니다.
+- 결과 집합이 표현식에 대해 테스트되는 [SELECT 문](SELECT.md)입니다. 이러한 값 중 표현식과 일치하는 값이 하나라도 있으면 IN 조건은 참으로 평가됩니다.
 
 ---
 ## DDL/DML 예제
@@ -158,4 +158,4 @@ AND product_name <> 'Bread';
 보시다시피, IN 조건이 부정되기 때문에 동일한 SQL 문은 OR 조건 대신 AND 조건을 사용하여 작성됩니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) / [다음 : IS NULL >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)**
+**[< 이전](DISTINCT.md) / [다음 : IS NULL >](IS_NULL.md)**

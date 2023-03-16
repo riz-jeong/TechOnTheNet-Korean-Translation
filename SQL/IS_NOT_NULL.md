@@ -22,7 +22,7 @@ expression IS NOT NULL
 
 ---
 ## 예제 - SELECT 문과 함께 IS NOT NULL 사용
-NULL이 아닌 값을 테스트할 때 SQL에서 사용하는 것이 권장되는 [비교 연산자](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md)는 IS NOT NULL입니다. 먼저 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 IS NOT NULL 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
+NULL이 아닌 값을 테스트할 때 SQL에서 사용하는 것이 권장되는 [비교 연산자](Comparison_Operators.md)는 IS NOT NULL입니다. 먼저 [SELECT 문](SELECT.md)에서 IS NOT NULL 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다:
 
@@ -57,7 +57,7 @@ WHERE category_id IS NOT NULL;
 
 ---
 ## 예제 - UPDATE 문과 함께 IS NOT NULL 사용
-다음으로 [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 IS NOT NULL 조건을 사용하는 방법의 예를 살펴보겠습니다.
+다음으로 [UPDATE 문](UPDATE.md)에서 IS NOT NULL 조건을 사용하는 방법의 예를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
@@ -96,7 +96,7 @@ SELECT * FROM customers;
 
 ---
 ## 예제 - DELETE 문과 함께 IS NOT NULL 사용
-다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)에서 IS NOT NULL 조건을 사용하는 방법에 대한 예제를 살펴보겠습니다.
+다음으로 [DELETE 문](DELETE.md)에서 IS NOT NULL 조건을 사용하는 방법에 대한 예제를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 orders라는 테이블이 있습니다.
 
@@ -126,4 +126,4 @@ SELECT * FROM orders;
 이 예제에서는 customer_id에 NULL 값이 포함되지 않은 모든 레코드를 orders 테이블에서 삭제합니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md) / [다음 : LIKE >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)**
+**[< 이전](IS_NULL.md) / [다음 : LIKE >](LIKE.md)**

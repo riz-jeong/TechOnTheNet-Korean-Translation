@@ -25,7 +25,7 @@ OR condition_n;
 
 ---
 ## 예제 - SELECT 문과 함께 "OR" 조건 사용
-[SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 OR 조건을 사용하여 레코드를 선택하려면 어떤 조건이 충족되어야 하는 여러 조건을 테스트하는 방법을 보여주는 예제를 살펴 보겠습니다.
+[SELECT 문](SELECT.md)에서 OR 조건을 사용하여 레코드를 선택하려면 어떤 조건이 충족되어야 하는 여러 조건을 테스트하는 방법을 보여주는 예제를 살펴 보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 포함된 suppliers라는 테이블이 있습니다.
 
@@ -56,11 +56,11 @@ ORDER BY supplier_name;
 | 200         | Google        | Mountain View | California |
 | 100         | Microsoft     | Redmond       | Washington |
 
-이 예제에서는 Mountain View 시에 있거나 supplier_id가 100인 모든 공급업체가 반환됩니다. [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에 *가 사용되었으므로 suppliers 테이블의 모든 필드가 결과 집합에 나타납니다.
+이 예제에서는 Mountain View 시에 있거나 supplier_id가 100인 모든 공급업체가 반환됩니다. [SELECT 문](SELECT.md)에 *가 사용되었으므로 suppliers 테이블의 모든 필드가 결과 집합에 나타납니다.
 
 ---
 ## 예제 - UPDATE 문과 함께 "OR" 조건 사용
-OR 조건은 SQL [UPDATE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/UPDATE.md)에서 여러 조건을 테스트하는 데 사용할 수 있습니다.
+OR 조건은 SQL [UPDATE 문](UPDATE.md)에서 여러 조건을 테스트하는 데 사용할 수 있습니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
@@ -100,7 +100,7 @@ SELECT * FROM customers;
 
 ---
 ## 예제 - UPDATE 문과 함께 "OR" 조건 사용
-다음으로 [DELETE 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DELETE.md)에서 OR 조건을 사용하여 레코드가 삭제되기 전에 조건이 충족되는지 테스트하는 방법을 살펴보겠습니다.
+다음으로 [DELETE 문](DELETE.md)에서 OR 조건을 사용하여 레코드가 삭제되기 전에 조건이 충족되는지 테스트하는 방법을 살펴보겠습니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
 
@@ -137,4 +137,4 @@ SELECT * FROM products;
 이 조건 예제는 products 테이블에서 product_name이 Pear, product_name이 Apple 또는 category_id = 25인 모든 레코드를 삭제합니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) / [다음 : AND & OR >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md)**
+**[< 이전](AND.md) / [다음 : AND & OR >](AND_OR.md)**

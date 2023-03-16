@@ -299,4 +299,4 @@ ORDER BY customers.customer_id;
 보시다시피, customer_id가 6000 및 9000인 행은 포함되지만 해당 레코드의 order_id 및 order_date 필드에는 NULL 값이 포함됩니다. order_id가 5인 행도 포함되지만 해당 레코드의 customer_id 필드에는 NULL 값이 있습니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ALIASES.md) / [다음 : BETWEEN >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/BETWEEN.md)**
+**[< 이전](ALIASES.md) / [다음 : BETWEEN >](BETWEEN.md)**

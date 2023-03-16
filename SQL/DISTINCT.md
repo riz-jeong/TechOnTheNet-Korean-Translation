@@ -127,4 +127,4 @@ ORDER BY category_id;
 이 예제에서 쿼리는 category_id 열에 있는 고유 값을 반환합니다. 결과 집합의 첫 번째 행에서 볼 수 있듯이, NULL은 DISTINCT 절에서 반환되는 고유 값입니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) / [다음 : IN >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)**
+**[< 이전](AND_OR.md) / [다음 : IN >](IN.md)**

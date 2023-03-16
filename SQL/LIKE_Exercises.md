@@ -3,11 +3,11 @@
 SQL LIKE 조건을 사용하여 실력을 테스트하고 싶다면 몇 가지 연습 문제를 풀어보세요.
 
 이 연습 문제를 통해 LIKE 조건을 사용하여 실력을 테스트할 수 있습니다.  
-각 연습이 끝나면 정답을 확인할 수 있도록 풀이가 제공합니다.
+각 연습이 끝나면 정답을 확인할 수 있도록 풀이가 제공됩니다.
 
 시작하세요!
 
-**[튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)**
+**[튜토리얼로 돌아가기](LIKE.md)**
 
 ---
 ## 연습 문제 #1
@@ -159,4 +159,4 @@ WHERE first_name LIKE 'J___';
 | 5000        | Smith     | Jane       | digminecraft.com |
 
 ---
-**[튜토리얼로 돌아가기](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)**
+**[튜토리얼로 돌아가기](LIKE.md)**

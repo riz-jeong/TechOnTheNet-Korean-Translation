@@ -154,7 +154,7 @@ ORDER BY product_id DESC;
 
 ---
 ## 예제 - ASC 및 DESC 속성 모두 사용
-SQL ORDER BY 절을 사용하여 결과 집합을 정렬하는 경우, 단일 [SELECT 문](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md)에서 ASC 및 DESC 속성을 사용할 수 있습니다.
+SQL ORDER BY 절을 사용하여 결과 집합을 정렬하는 경우, 단일 [SELECT 문](SELECT.md)에서 ASC 및 DESC 속성을 사용할 수 있습니다.
 
 이 예제에서는 이전 예제와 동일한 products 테이블을 사용하겠습니다.
 
@@ -189,4 +189,4 @@ ORDER BY category_id DESC, product_name ASC;
 이 예제에서는 category_id 필드를 기준으로 내림차순으로 정렬된 레코드를 반환하고, product_name을 기준으로 오름차순으로 정렬된 2차 정렬을 수행합니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md) / [다음 : AND >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md)**
+**[< 이전](WHERE.md) / [다음 : AND >](AND.md)**

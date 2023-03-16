@@ -22,7 +22,7 @@ NOT condition
 
 ---
 ## 예제 - IN 조건에 NOT 사용
-먼저 IN 조건에 NOT 연산자를 사용하는 방법부터 살펴보겠습니다. [IN 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md)과 함께 NOT 연산자를 사용하면 NOT IN 조건이 생성됩니다. 이렇게 하면 표현식이 목록에 없는지 테스트합니다.
+먼저 IN 조건에 NOT 연산자를 사용하는 방법부터 살펴보겠습니다. [IN 조건](IN.md)과 함께 NOT 연산자를 사용하면 NOT IN 조건이 생성됩니다. 이렇게 하면 표현식이 목록에 없는지 테스트합니다.
 
 이 예제에서는 다음과 같은 데이터가 있는 products라는 테이블이 있습니다.
 
@@ -64,7 +64,7 @@ AND product_name <> 'Bread';
 
 ---
 ## 예제 - IS NULL 조건에 NOT 사용
-NOT 연산자를 [IS NULL 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md)과 결합하면 NULL이 아닌 값을 테스트할 수 있는 IS NOT NULL 조건이 만들어집니다. 이 연산자는 NULL이 아닌 값을 테스트할 때 SQL에서 사용하도록 권장되는 [비교 연산자](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md)입니다. 쿼리에서 IS NOT NULL 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
+NOT 연산자를 [IS NULL 조건](IS_NULL.md)과 결합하면 NULL이 아닌 값을 테스트할 수 있는 IS NOT NULL 조건이 만들어집니다. 이 연산자는 NULL이 아닌 값을 테스트할 때 SQL에서 사용하도록 권장되는 [비교 연산자](Comparison_Operators.md)입니다. 쿼리에서 IS NOT NULL 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
 
 이전 예제와 동일한 products 테이블을 사용합니다.
 
@@ -98,7 +98,7 @@ WHERE category_id IS NOT NULL;
 
 ---
 ## 예제 - LIKE 조건과 함께 NOT 사용
-다음으로 [LIKE 조건](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md)과 함께 NOT 연산자를 사용하는 방법의 예를 살펴보겠습니다.
+다음으로 [LIKE 조건](LIKE.md)과 함께 NOT 연산자를 사용하는 방법의 예를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 suppliers라는 테이블이 있습니다.
 
@@ -207,4 +207,4 @@ WHERE NOT EXISTS
 이 예제에서는 orders 테이블에 지정된 customer_id에 대한 레코드가 없는 customers 테이블의 모든 레코드를 반환합니다.
 
 ---
-**[< 이전](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md) / [다음 : ALIASES >](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ALIASES.md)**
+**[< 이전](LIKE.md) / [다음 : ALIASES >](ALIASES.md)**
