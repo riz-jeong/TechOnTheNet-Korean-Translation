@@ -130,7 +130,7 @@ WHERE supplier_name NOT LIKE '%o%';
 
 ---
 ## 예제 - BETWEEN 조건과 함께 NOT 사용
-NOT 연산자를 BETWEEN 조건과 결합하여 NOT BETWEEN 조건을 만들 수도 있습니다. 쿼리에서 NOT BETWEEN 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
+NOT 연산자를 [BETWEEN 조건](BETWEEN.md)과 결합하여 NOT BETWEEN 조건을 만들 수도 있습니다. 쿼리에서 NOT BETWEEN 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
@@ -166,7 +166,7 @@ OR customer_id > 8000;
 
 ---
 ## 예제 - EXISTS 조건과 함께 NOT 사용
-마지막으로 NOT 조건을 EXISTS 조건과 결합하여 NOT EXISTS 조건을 만들 수 있습니다. SQL에서 NOT EXISTS 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
+마지막으로 NOT 조건을 [EXISTS 조건](EXISTS.md)과 결합하여 NOT EXISTS 조건을 만들 수 있습니다. SQL에서 NOT EXISTS 조건을 사용하는 방법을 보여주는 예제를 살펴보겠습니다.
 
 이 예제에는 다음과 같은 데이터가 있는 customers라는 테이블이 있습니다.
 
