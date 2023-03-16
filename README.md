@@ -6,22 +6,24 @@
 **[SQL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/tree/main/SQL)**
 
 ### 2023-03-10 SQL 시작
-- [SELECT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/SELECT.md) 추가 / 2023-03-10
-- [FROM](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/FROM.md) 추가 / 2023-03-10
-- [Comparison Operators](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/Comparison_Operators.md) 추가 / 2023-03-10
-- [WHERE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/WHERE.md) 추가 / 2023-03-11
-- [ORDER BY](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ORDER_BY.md) 추가 / 2023-03-11
-- [AND](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND.md) 추가 / 2023-03-12
-- [OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/OR.md) 추가 / 2023-03-12
-- [AND & OR](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/AND_OR.md) 추가 / 2023-03-12
-- [DISTINCT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/DISTINCT.md) 추가 / 2023-03-13
-- [IN](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IN.md) 추가 / 2023-03-13
-- [IS NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NULL.md) 추가 / 2023-03-13
-- [IS NOT NULL](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/IS_NOT_NULL.md) 추가 / 2023-03-13
-- [LIKE](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/LIKE.md) 추가 / 2023-03-14
-- [NOT](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/NOT.md) 추가 / 2023-03-14
-- [ALIASES](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/ALIASES.md) 추가 / 2023-03-15
-- [JOINS](https://github.com/riz-jeong/TechOnTheNet-Korean-Translation/blob/main/SQL/JOINS.md) 추가 / 2023-03-15
+- [SELECT](SQL/SELECT.md) 추가 / 2023-03-10
+- [FROM](SQL/FROM.md) 추가 / 2023-03-10
+- [Comparison Operators](SQL/Comparison_Operators.md) 추가 / 2023-03-10
+- [WHERE](SQL/WHERE.md) 추가 / 2023-03-11
+- [ORDER BY](SQL/ORDER_BY.md) 추가 / 2023-03-11
+- [AND](SQL/AND.md) 추가 / 2023-03-12
+- [OR](SQL/OR.md) 추가 / 2023-03-12
+- [AND & OR](SQL/AND_OR.md) 추가 / 2023-03-12
+- [DISTINCT](SQL/DISTINCT.md) 추가 / 2023-03-13
+- [IN](SQL/IN.md) 추가 / 2023-03-13
+- [IS NULL](SQL/IS_NULL.md) 추가 / 2023-03-13
+- [IS NOT NULL](SQL/IS_NOT_NULL.md) 추가 / 2023-03-13
+- [LIKE](SQL/LIKE.md) 추가 / 2023-03-14
+- [NOT](SQL/NOT.md) 추가 / 2023-03-14
+- [ALIASES](SQL/ALIASES.md) 추가 / 2023-03-15
+- [JOINS](SQL/JOINS.md) 추가 / 2023-03-15
+- [BETWEEN](SQL/BETWEEN.md) 추가 / 2023-03-16
+- [INSERT](SQL/INSERT.md) 추가 / 2023-03-16
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
