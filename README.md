@@ -24,6 +24,8 @@
 - [JOINS](SQL/JOINS.md) 추가 / 2023-03-15
 - [BETWEEN](SQL/BETWEEN.md) 추가 / 2023-03-16
 - [INSERT](SQL/INSERT.md) 추가 / 2023-03-16
+- [UPDATE](SQL/UPDATE.md) 추가 / 2023-03-17
+- [DELETE](SQL/DELETE.md) 추가 / 2023-03-17
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
