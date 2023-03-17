@@ -198,6 +198,7 @@ WHERE EXISTS
    AND customers.last_name = 'Jackson');
 ```
 DELETE 문을 실행할 때 삭제될 레코드 수를 반환합니다.
+
 | COUNT(*) |
 | :------- |
 | 1        |
@@ -207,6 +208,7 @@ DELETE 문을 실행할 때 삭제될 레코드 수를 반환합니다.
 - 질문 : TableA의 field1 및 field2의 데이터가 TableB의 fieldx 및 fieldz의 데이터와 일치하지 않는 모든 레코드를 삭제하려면 SQL DELETE 문을 어떻게 작성해야 하나요?
 
 - 답변 : SQL DELETE 문에 다음과 같이 시도해 볼 수 있습니다.
+
 ```SQL
 DELETE FROM TableA
 WHERE NOT EXISTS
