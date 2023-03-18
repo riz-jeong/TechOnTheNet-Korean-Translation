@@ -27,7 +27,7 @@
 | [INSERT 문](INSERT.md) | 테이블에서 레코드 삽입 |
 | [UPDATE 문](UPDATE.md) | 테이블에서 레코드 갱신 |
 | [DELETE 문](DELETE.md) | 테이블에서 레코드 삭제 |
-| [TRUNCATE TABLE 문](TRUNCATE_TABLE.md) | 테이블에서 모든 레코드 삭제(롤백 없음) |
+| [TRUNCATE TABLE 문](TRUNCATE.md) | 테이블에서 모든 레코드 삭제(롤백 없음) |
 | [UNION 연산자](UNION.md) | 결과 세트 2개 결합(중복 제거) |
 | [UNION ALL 연산자](UNION_ALL.md) | 결과 세트 2개 결합(중복 포함) |
 | [INTERSECT 연산자](INTERSECT.md) | 두 결과 세트의 교집합 |
