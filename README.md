@@ -26,6 +26,8 @@
 - [INSERT](SQL/INSERT.md) 추가 / 2023-03-16
 - [UPDATE](SQL/UPDATE.md) 추가 / 2023-03-17
 - [DELETE](SQL/DELETE.md) 추가 / 2023-03-17
+- [TRUNCATE](SQL/TRUNCATE.md) 추가 / 2023-03-18
+- [EXISTS](SQL/EXISTS.md) 추가 / 2023-03-18
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
