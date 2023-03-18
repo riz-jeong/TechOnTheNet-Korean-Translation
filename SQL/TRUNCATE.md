@@ -71,4 +71,4 @@ TRUNCATE TABLE totn.suppliers;
 이 예제에서는 totn이라는 데이터베이스에서 suppliers라는 테이블을 잘라냅니다.
 
 ---
-**[< 이전](DELETE.md) / [다음 : TRUNCATE >](EXISTS.md)**
+**[< 이전](DELETE.md) / [다음 : EXISTS >](EXISTS.md)**
