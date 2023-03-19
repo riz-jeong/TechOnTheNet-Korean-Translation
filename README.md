@@ -28,6 +28,8 @@
 - [DELETE](SQL/DELETE.md) 추가 / 2023-03-17
 - [TRUNCATE](SQL/TRUNCATE.md) 추가 / 2023-03-18
 - [EXISTS](SQL/EXISTS.md) 추가 / 2023-03-18
+- [GROUP BY](SQL/GROUP_BY.md) 추가 / 2023-03-19
+- [COUNT](SQL/COUNT.md) 추가 / 2023-03-19
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
