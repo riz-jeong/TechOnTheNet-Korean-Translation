@@ -13,7 +13,7 @@ SQL에서 TRUNCATE TABLE 문의 구문은 다음과 같습니다.
 TRUNCATE TABLE table_name;
 ```
 ### 매개변수 및 인수
-#### table_name
+#### **table_name**
 - 잘라내려는 테이블입니다.
 
 ---
