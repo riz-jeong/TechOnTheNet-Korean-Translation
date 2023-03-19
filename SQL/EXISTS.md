@@ -11,7 +11,7 @@ SQL에서 EXISTS 조건의 구문은 다음과 같습니다.
 WHERE EXISTS ( subquery );
 ```
 ### 매개변수 및 인수
-#### subquery(하위 쿼리)
+#### **subquery(하위 쿼리)**
 - 하위 쿼리는 SELECT 문입니다. 하위 쿼리가 결과 집합에서 하나 이상의 레코드를 반환하는 경우 EXISTS 절이 true로 평가되고 EXISTS 조건이 충족됩니다. 하위 쿼리가 레코드를 반환하지 않으면 EXISTS 절이 false로 평가되고 EXISTS 조건이 충족되지 않습니다.
 
 ## 참고
