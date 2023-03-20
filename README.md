@@ -30,6 +30,8 @@
 - [EXISTS](SQL/EXISTS.md) 추가 / 2023-03-18
 - [GROUP BY](SQL/GROUP_BY.md) 추가 / 2023-03-19
 - [COUNT](SQL/COUNT.md) 추가 / 2023-03-19
+- [SUM](SQL/SUM.md) 추가 / 2023-03-20
+- [MAX](SQL/MAX.md) 추가 / 2023-03-20
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
