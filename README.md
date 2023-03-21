@@ -32,6 +32,8 @@
 - [COUNT](SQL/COUNT.md) 추가 / 2023-03-19
 - [SUM](SQL/SUM.md) 추가 / 2023-03-20
 - [MAX](SQL/MAX.md) 추가 / 2023-03-20
+- [MIN](SQL/MIN.md) 추가 / 2023-03-21
+- [AVG](SQL/AVG.md) 추가 / 2023-03-21
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
