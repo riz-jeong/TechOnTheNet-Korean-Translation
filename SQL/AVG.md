@@ -21,13 +21,13 @@ FROM tables
 GROUP BY expression1, expression2, ... expression_n;
 ```
 ### 매개변수 및 인수
-#### **expression1, expression2, ... expression_n
+#### **expression1, expression2, ... expression_n**
 - AVG 함수 내에 캡슐화되지 않은 표현식은 SQL 문 끝에 있는 GROUP BY 절에 포함되어야 합니다.
-#### **aggregate_expression
+#### **aggregate_expression**
 - 평균을 구할 열 또는 표현식입니다.
-#### **tables
+#### **tables**
 - 레코드를 검색하려는 테이블입니다. FROM 절에 테이블이 하나 이상 나열되어 있어야 합니다.
-#### **WHERE conditions(WHERE 조건)
+#### **WHERE conditions(WHERE 조건)**
 - 선택 사항입니다. 레코드를 선택하려면 반드시 충족해야 하는 조건입니다.
 
 ---
