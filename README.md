@@ -34,6 +34,8 @@
 - [MAX](SQL/MAX.md) 추가 / 2023-03-20
 - [MIN](SQL/MIN.md) 추가 / 2023-03-21
 - [AVG](SQL/AVG.md) 추가 / 2023-03-21
+- [HAVING](SQL/HAVING.md) 추가 / 2023-03-22
+- [SELECT LIMIT](SQL/SELECT_LIMIT.md) 추가 / 2023-03-22
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
