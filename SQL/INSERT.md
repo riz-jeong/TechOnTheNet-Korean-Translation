@@ -1,6 +1,6 @@
 # SQL : INSERT 문
 
-이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](INSERT_Exercises.md)를 통해 SQL INSERT 문을 사용하는 방법을 설명합니다.
+이 SQL 튜토리얼에서는 구문, 예제 및 [연습 문제](INSERT_Exercises.md)를 통해 SQL **INSERT 문**을 사용하는 방법을 설명합니다.
 
 ## 설명
 SQL INSERT 문은 테이블에 하나 이상의 레코드를 삽입하는 데 사용됩니다. INSERT 문에는 하나의 레코드를 삽입하는지 여러 레코드를 삽입하는지에 따라 두 가지 구문이 있습니다.

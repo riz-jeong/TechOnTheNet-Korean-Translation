@@ -1,6 +1,6 @@
 # SQL : HAVING 절
 
-이 SQL 튜토리얼에서는 구문과 예제를 통해 SQL HAVING 절을 사용하는 방법을 설명합니다.
+이 SQL 튜토리얼에서는 구문과 예제를 통해 SQL **HAVING 절**을 사용하는 방법을 설명합니다.
 
 ## 설명
 SQL HAVING 절은 [GROUP BY 절](GROUP_BY.md)과 함께 사용하여 반환되는 행의 그룹을 조건이 TRUE인 행으로만 제한합니다.
