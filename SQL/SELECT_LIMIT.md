@@ -1,4 +1,4 @@
-# SQL : SELECT LIMIT Statement
+# SQL : SELECT LIMIT 문
 
 이 SQL 튜토리얼에서는 구문과 예제를 통해 SQL에서 **SELECT LIMIT 문**을 사용하는 방법을 설명합니다.
 
