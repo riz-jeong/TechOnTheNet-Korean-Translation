@@ -19,7 +19,7 @@ FROM tables
 LIMIT number_rows [ OFFSET offset_value ];
 ```
 ### 매개변수 및 인수
-#### **expressions**
+#### **expressions(표현식)**
 - 검색하려는 열 또는 계산입니다.
 #### **tables**
 - 레코드를 검색하려는 테이블입니다. FROM 절에 테이블이 하나 이상 나열되어 있어야 합니다.
