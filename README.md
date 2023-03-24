@@ -39,6 +39,9 @@
 - [SELECT TOP](SQL/SELECT_TOP.md) 추가 / 2023-03-23
 - [UNION](SQL/UNION.md) 추가 / 2023-03-23
 - [UNION ALL](SQL/UNION_ALL.md) 추가 / 2023-03-23
+- [INTERSECT](SQL/INTERSECT.md) 추가 / 2023-03-24
+- [MINUS](SQL/MINUS.md) 추가 / 2023-03-24
+- [EXCEPT](SQL/EXCEPT.md) 추가 / 2023-03-24
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
