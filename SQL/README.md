@@ -28,9 +28,9 @@
 | [UPDATE 문](UPDATE.md) | 테이블에서 레코드 갱신 |
 | [DELETE 문](DELETE.md) | 테이블에서 레코드 삭제 |
 | [TRUNCATE TABLE 문](TRUNCATE.md) | 테이블에서 모든 레코드 삭제(롤백 없음) |
-| [UNION 연산자](UNION.md) | 결과 세트 2개 결합(중복 제거) |
-| [UNION ALL 연산자](UNION_ALL.md) | 결과 세트 2개 결합(중복 포함) |
-| [INTERSECT 연산자](INTERSECT.md) | 두 결과 세트의 교집합 |
+| [UNION 연산자](UNION.md) | 결과 집합 2개 결합(중복 제거) |
+| [UNION ALL 연산자](UNION_ALL.md) | 결과 집합 2개 결합(중복 포함) |
+| [INTERSECT 연산자](INTERSECT.md) | 두 결과 집합의 교집합 |
 | [MINUS 연산자](MINUS.md) | 하나의 결과 집합에서 다른 결과 집합을 뺀 값 |
 | [EXCEPT 연산자](EXCEPT.md) | 하나의 결과 집합에서 다른 결과 집합을 뺀 값 |
 
