@@ -42,6 +42,8 @@
 - [INTERSECT](SQL/INTERSECT.md) 추가 / 2023-03-24
 - [MINUS](SQL/MINUS.md) 추가 / 2023-03-24
 - [EXCEPT](SQL/EXCEPT.md) 추가 / 2023-03-24
+- [Data Types](SQL/Data_Types.md) 추가 / 2023-03-25
+- [CREATE TABLE](SQL/CREATE_TABLE.md) 추가 / 2023-03-25
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
