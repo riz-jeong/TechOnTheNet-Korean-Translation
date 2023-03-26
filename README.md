@@ -44,6 +44,7 @@
 - [EXCEPT](SQL/EXCEPT.md) 추가 / 2023-03-24
 - [Data Types](SQL/Data_Types.md) 추가 / 2023-03-25
 - [CREATE TABLE](SQL/CREATE_TABLE.md) 추가 / 2023-03-25
+- [CREATE TABLE AS](SQL/CREATE_TABLE_AS.md) 추가 / 2023-03-26
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
