@@ -45,6 +45,8 @@
 - [Data Types](SQL/Data_Types.md) 추가 / 2023-03-25
 - [CREATE TABLE](SQL/CREATE_TABLE.md) 추가 / 2023-03-25
 - [CREATE TABLE AS](SQL/CREATE_TABLE_AS.md) 추가 / 2023-03-26
+- [Primary Keys](SQL/Primary_Keys.md) 추가 / 2023-03-27
+- [ALTER TABLE](SQL/ALTER_TABLE.md) 추가 / 2023-03-27
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
