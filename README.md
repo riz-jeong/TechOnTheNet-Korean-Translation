@@ -47,6 +47,8 @@
 - [CREATE TABLE AS](SQL/CREATE_TABLE_AS.md) 추가 / 2023-03-26
 - [Primary Keys](SQL/Primary_Keys.md) 추가 / 2023-03-27
 - [ALTER TABLE](SQL/ALTER_TABLE.md) 추가 / 2023-03-27
+- [DROP TABLE](SQL/DROP_TABLE.md) 추가 / 2023-03-28
+- [VIEWS](SQL/VIEWS.md) 추가 / 2023-03-28
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
