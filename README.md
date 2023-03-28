@@ -49,6 +49,8 @@
 - [ALTER TABLE](SQL/ALTER_TABLE.md) 추가 / 2023-03-27
 - [DROP TABLE](SQL/DROP_TABLE.md) 추가 / 2023-03-28
 - [VIEWS](SQL/VIEWS.md) 추가 / 2023-03-28
+- [DROP TABLE](SQL/GLOBAL_TEMP.md) 추가 / 2023-03-29
+- [VIEWS](SQL/LOCAL_TEMP.md) 추가 / 2023-03-29
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
