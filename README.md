@@ -53,6 +53,7 @@
 - [LOCAL TEMP](SQL/LOCAL_TEMP.md) 추가 / 2023-03-29
 - [Indexes](SQL/Indexes.md) 추가 / 2023-03-30
 - [Comments](SQL/Comments.md) 추가 / 2023-03-30
+- [Literals](SQL/Literals.md) 추가 / 2023-03-31
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
