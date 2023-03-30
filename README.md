@@ -54,6 +54,7 @@
 - [Indexes](SQL/Indexes.md) 추가 / 2023-03-30
 - [Comments](SQL/Comments.md) 추가 / 2023-03-30
 - [Literals](SQL/Literals.md) 추가 / 2023-03-31
+### 2023-03-31 SQL 완료
 
 ---
 ## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
