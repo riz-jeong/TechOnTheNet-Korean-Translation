@@ -57,7 +57,10 @@
 ### 2023-03-31 SQL 완료
 
 ---
-## [TechOnTheNet Oracle / PLSQL](https://www.techonthenet.com/oracle/index.php)
+**[Oracle / PLSQL](PLSQL)**
+
+### 2023-04-01 Oracle / PLSQL 시작
+- [SELECT](PLSQL/SELECT.md) 추가 / 2023-04-01
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
