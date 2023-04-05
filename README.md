@@ -64,6 +64,7 @@
 - [FROM](PLSQL/FROM.md) 추가 / 2023-04-02
 - [Comparison Operators](PLSQL/Comparison_Operators.md) 추가 / 2023-04-03
 - [WHERE](PLSQL/WHERE.md) 추가 / 2023-04-04
+- [ORDER BY](PLSQL/ORDER_BY.md) 추가 / 2023-04-05
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
