@@ -1,4 +1,5 @@
-# Oracle / PLSQL: OR 조건
+# Oracle / PLSQL : OR 조건
+
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle **OR 조건**을 사용하는 방법을 설명합니다.
 
 ## 설명
@@ -38,7 +39,7 @@ OR available_credit > 500;
 SELECT supplier_id
 FROM suppliers
 WHERE supplier_name = 'IBM'
-OR city = '뉴욕'
+OR city = 'New York'
 OR offices > 5;
 ```
 이 Oracle OR 조건 예제는 supplier_name이 IBM이거나, city가 New York이거나, offices가 5보다 큰 모든 supplier_id 값을 반환합니다.
