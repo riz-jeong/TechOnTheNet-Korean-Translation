@@ -17,8 +17,6 @@ ALTER TABLE table_name
 
 ### 예제
 열을 추가하는 SQL ALTER TABLE 예제를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 ALTER TABLE supplier
   ADD supplier_name char(50);
@@ -40,8 +38,6 @@ ALTER TABLE table_name
 
 ### 예제
 둘 이상의 열을 추가하는 SQL ALTER TABLE 예제를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 ALTER TABLE supplier
   ADD (supplier_name char(50),
@@ -173,8 +169,6 @@ ALTER TABLE table_name
 
 ### 예제
 테이블에서 열을 삭제하는 예제를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 ALTER TABLE supplier
   DROP COLUMN supplier_name;

@@ -29,8 +29,6 @@
 ---
 ## 예제 - 동등 연산자
 Oracle/PLSQL에서는 `=` 연산자를 사용하여 쿼리에서 동일성 여부를 테스트할 수 있습니다.
-
-예를 들어
 ```SQL
 SELECT *
 FROM customers

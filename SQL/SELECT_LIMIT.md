@@ -35,8 +35,6 @@ LIMIT number_rows [ OFFSET offset_value ];
 ---
 ## 예제 - LIMIT 키워드 사옹
 SQL에서 LIMIT 절과 함께 SELECT 문을 사용하는 방법을 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT contact_id, last_name, first_name
 FROM contacts
@@ -60,15 +58,13 @@ LIMIT 5;
 
 ---
 ## 예제 - OFFSET 키워드 사용
-OFFSET 키워드를 사용하면 LIMIT 절에서 반환된 첫 번째 레코드를 오프셋할 수 있습니다. 예를 들어
+OFFSET 키워드를 사용하면 LIMIT 절에서 반환된 첫 번째 레코드를 오프셋할 수 있습니다.
 ```SQL
 LIMIT 3 OFFSET 1
 ```
 이 LIMIT 절은 결과 집합에서 오프셋이 1인 레코드 3개를 반환합니다. 즉, SELECT 문은 일반적으로 반환되는 첫 번째 레코드를 건너뛰고 대신 두 번째, 세 번째 및 네 번째 레코드를 반환합니다.
 
 SQL에서 OFFSET 절과 함께 SELECT LIMIT 문을 사용하는 방법을 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT contact_id, last_name, first_name
 FROM contacts

@@ -26,8 +26,6 @@ CREATE [UNIQUE] INDEX index_name
 
 ### 예제
 SQL에서 인덱스를 만드는 방법의 예를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 CREATE INDEX websites_idx
   ON websites (site_name);
@@ -46,8 +44,6 @@ CREATE INDEX websites_idx
 기본 키와 마찬가지로 고유 키를 사용하면 각 레코드에 대해 고유해야 하는 하나의 열 또는 열 조합을 선택할 수 있습니다. 테이블에 기본 키는 하나만 가질 수 있지만 테이블에 고유 인덱스는 필요한 만큼 많이 만들 수 있습니다.
 
 테이블에 고유 인덱스를 생성하려면 CREATE INDEX 문에 UNIQUE 키워드를 지정해야 합니다.
-
-예를 들면 다음과 같습니다.
 ```SQL
 CREATE UNIQUE INDEX websites_idx
   ON websites (site_name);

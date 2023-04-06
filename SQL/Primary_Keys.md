@@ -44,8 +44,6 @@ CREATE TABLE table_name
 
 ### 예제
 SQL에서 CREATE TABLE 문을 사용하여 기본 키를 만드는 방법의 예를 살펴보겠습니다. 기본 키가 하나의 열로만 구성된 매우 간단한 예제부터 시작하겠습니다.
-
-예를 들어
 ```SQL
 CREATE TABLE suppliers
 ( supplier_id int NOT NULL,
@@ -67,8 +65,6 @@ CREATE TABLE suppliers
 이 두 구문은 하나의 필드만 있는 기본 키를 만들 때 모두 유효합니다.
 
 2개 이상의 열로 구성된 기본 키를 생성하는 경우 기본 키가 CREATE TABLE 문의 끝에 정의되는 첫 번째 구문만 사용하도록 제한됩니다.
-
-예를 들어
 ```SQL
 CREATE TABLE contacts
 ( last_name VARCHAR(30) NOT NULL,

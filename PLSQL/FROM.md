@@ -28,8 +28,6 @@ ON table1.column1 = table2.column1 ]
 Oracle FROM 절의 구문을 설명하기는 어렵기 때문에 몇 가지 예를 살펴보겠습니다.
 
 먼저 테이블이 하나뿐인 경우에 FROM 절을 사용하는 방법부터 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT *
 FROM homes
@@ -41,8 +39,6 @@ ORDER BY home_type ASC;
 ---
 ## 예제 - INNER JOIN이 있는 두 테이블
 두 개의 테이블과 [INNER JOIN](JOINS.md)을 사용하여 FROM 절을 사용하는 방법을 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT homes.home_id, customers.last_name, customers.first_name
 FROM customers
@@ -55,8 +51,6 @@ ORDER BY home_id;
 ---
 ## 예제 - OUTER JOIN이 있는 두 테이블
 [OUTER JOIN](JOINS.md)을 사용하여 두 테이블을 조인할 때 FROM 절을 사용하는 방법을 살펴보겠습니다. 이 경우 LEFT OUTER JOIN을 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT customers.customer_id, contacts.last_name, contacts.first_name
 FROM customers

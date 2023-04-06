@@ -39,8 +39,6 @@ FROM tables
 ---
 ## 예제 - 이름이 같은 단일 필드
 하나의 필드를 반환하는 SQL UNION 연산자를 사용하는 방법을 살펴보겠습니다. 이 간단한 예제에서는 두 SELECT 문에 있는 필드의 이름과 데이터 유형이 동일합니다.
-
-예를 들어
 ```SQL
 SELECT supplier_id
 FROM suppliers
@@ -101,8 +99,6 @@ ORDER BY supplier_id;
 SELECT 문 간에 열 이름이 같지 않은 경우, 특히 [ORDER BY 절](ORDER_BY.md)을 사용하여 쿼리 결과를 정렬하려는 경우 약간 까다로워질 수 있습니다.
 
 열 이름이 다른 UNION 연산자를 사용하여 쿼리 결과를 정렬하는 방법을 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT supplier_id, supplier_name
 FROM suppliers

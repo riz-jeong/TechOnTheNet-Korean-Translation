@@ -64,8 +64,6 @@ WHERE quantity <> 0;
 ---
 ## 예제 - 여러 표현식 사용
 다음으로 SQL에서 INTERSECT 연산자를 사용하여 둘 이상의 열을 반환하는 방법의 예를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT contact_id, last_name, first_name
 FROM contacts

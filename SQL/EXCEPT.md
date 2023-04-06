@@ -43,8 +43,6 @@ FROM tables
 ---
 ## 예시 - 단일 표현식 사용
 동일한 데이터 유형을 가진 하나의 필드를 반환하는 SQL에서 EXCEPT 연산자를 사용하는 방법에 대한 예를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT product_id
 FROM products
@@ -57,8 +55,6 @@ FROM inventory;
 ---
 ## 예시 - 여러 표현식 사용
 다음으로 SQL에서 둘 이상의 열을 반환하는 EXCEPT 쿼리를 사용하는 방법에 대한 예를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT contact_id, last_name, first_name
 FROM contacts
@@ -73,8 +69,6 @@ WHERE customer_id > 45;
 ---
 ## 예시 - ORDER BY 절 사용
 마지막으로 SQL의 EXCEPT 쿼리에서 [ORDER BY 절](ORDER_BY.md)을 사용하는 방법을 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT supplier_id, supplier_name
 FROM suppliers

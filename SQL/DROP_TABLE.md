@@ -18,8 +18,6 @@ DROP TABLE table_name;
 더 이상 필요하지 않은 테이블을 생성했을 수 있습니다. DROP TABLE 문을 사용하여 데이터베이스에서 테이블을 제거할 수 있습니다.
 
 DROP TABLE 문을 사용하여 테이블을 삭제하는 방법을 보여주는 예제를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 DROP TABLE suppliers;
 ```
@@ -28,8 +26,6 @@ DROP TABLE suppliers;
 테이블을 삭제한 후에는 테이블이 이미 존재한다는 오류 없이 suppliers 테이블을 다시 만들 수 있습니다.
 
 테이블 이름 앞에 데이터베이스 이름을 접두사로 붙이는 예제를 하나 더 살펴보겠습니다.
-
-예를 들어
 ```SQL
 DROP TABLE totn.contacts;
 ```

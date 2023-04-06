@@ -31,8 +31,6 @@ ORDER BY 절에 ASC 또는 DESC 수정자가 제공되지 않으면 결과는 �
 ---
 ## 예제 - ASC/DESC 속성을 사용하지 않고 정렬하기
 Oracle ORDER BY 절은 ASC 또는 DESC 값을 지정하지 않고 사용할 수 있습니다. 이 속성을 ORDER BY 절에서 생략하면 정렬 순서는 기본적으로 ASC 또는 오름차순으로 설정됩니다.
-
-예를 들어
 ```SQL
 SELECT supplier_city
 FROM suppliers
@@ -62,8 +60,6 @@ ORDER BY supplier_city DESC;
 ---
 ## 예제 - 상대적 위치를 기준으로 정렬
 Oracle ORDER BY 절을 사용하여 결과 집합의 상대적 위치를 기준으로 정렬할 수도 있습니다. 여기서 결과 집합의 첫 번째 필드는 1이고 다음 필드는 2인 식으로 정렬할 수 있습니다.
-
-예를 들어
 ```SQL
 SELECT supplier_city
 FROM suppliers
@@ -81,8 +77,6 @@ ORDER BY supplier_city DESC;
 ---
 ## 예제 - ASC 및 DESC 속성 모두 사용
 Oracle ORDER BY 절을 사용하여 결과 집합을 정렬할 때 단일 [SELECT 문](SELECT.md)에서 ASC 및 DESC 속성을 사용할 수 있습니다.
-
-예를 들면 다음과 같습니다.
 ```SQL
 SELECT supplier_city, supplier_state
 FROM suppliers

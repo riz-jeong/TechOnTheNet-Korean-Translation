@@ -35,8 +35,6 @@ FROM tables
 ---
 ## 예제 - TOP 키워드 사용
 SELECT 문에서 TOP 키워드를 사용하는 SQL 예제를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT TOP(5)
 contact_id, last_name, first_name
@@ -49,8 +47,6 @@ ORDER BY contact_id;
 ---
 ## 예제 - TOP PERCENT 키워드 사용
 SELECT 문에서 TOP PERCENT 키워드를 사용하는 SQL 예제를 살펴보겠습니다.
-
-예를 들어
 ```SQL
 SELECT TOP(10) PERCENT
 contact_id, last_name, first_name

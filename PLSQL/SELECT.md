@@ -34,8 +34,6 @@ ORDER BY home_type ASC;
 ---
 ## 예제 - 하나의 테이블에서 개별 필드 선택
 Oracle SELECT 문을 사용하여 테이블의 모든 필드가 아닌 테이블에서 개별 필드를 선택할 수도 있습니다.
-
-예를 들어
 ```SQL
 SELECT home_id, home_type, bathrooms
 FROM homes
