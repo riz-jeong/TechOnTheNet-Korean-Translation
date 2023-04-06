@@ -18,8 +18,8 @@ OR condition_n;
 - 레코드를 선택하기 위해 어떤 조건이든 충족하여야 합니다.
 
 ## 참고
-Oracle OR 조건을 사용하면 2개 이상의 조건을 테스트할 수 있습니다.
-Oracle OR 조건은 레코드가 결과 집합에 포함되려면 조건(예: condition1, condition2, condition_n) 중 하나라도 충족되어야 합니다.
+- Oracle OR 조건을 사용하면 2개 이상의 조건을 테스트할 수 있습니다.
+- Oracle OR 조건은 레코드가 결과 집합에 포함되려면 조건(예: condition1, condition2, condition_n) 중 하나라도 충족되어야 합니다.
 
 ---
 ## 예제 - SELECT 문 사용
@@ -66,7 +66,7 @@ SET supplier_name = 'Apple'
 WHERE supplier_name = 'RIM'
 OR available_products < 10;
 ```
-이 Oracle OR 조건 예제는 suppliers 테이블의 모든 supplier_name 값을 supplier_name이 RIM이거나 availabe_products가 10 미만인 Apple로 업데이트합니다.
+이 Oracle OR 조건 예제는 suppliers 테이블의 supplier_name이 RIM이거나 availabe_products가 10 미만인 모든 supplier_name 값을 Apple로 업데이트합니다.
 
 ---
 ## 예제 - DELETE 문 사용

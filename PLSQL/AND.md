@@ -75,7 +75,7 @@ SET supplier_name = 'Apple'
 WHERE supplier_name = 'RIM'
 AND offices = 8;
 ```
-이 Oracle AND 조건 예제는 suppliers 테이블의 모든 supplier_name 값을 공급업체 이름이 RIM이고 사무실이 8개인 Apple로 업데이트합니다.
+이 Oracle AND 조건 예제는 suppliers 테이블의 supplier_name이 RIM이고 offices가 8개인 모든 supplier_name 값을 Apple로 업데이트합니다.
 
 ---
 ## 예제 - DELETE 문 사용
