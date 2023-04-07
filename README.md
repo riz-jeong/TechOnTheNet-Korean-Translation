@@ -67,6 +67,7 @@
 - [ORDER BY](PLSQL/ORDER_BY.md) 추가 / 2023-04-05
 - [AND](PLSQL/AND.md) 추가 / 2023-04-06
 - [OR](PLSQL/OR.md) 추가 / 2023-04-06
+- [AND & OR](PLSQL/AND_OR.md) 추가 / 2023-04-07
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
