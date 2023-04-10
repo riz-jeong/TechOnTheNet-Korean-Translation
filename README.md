@@ -70,6 +70,8 @@
 - [AND & OR](PLSQL/AND_OR.md) 추가 / 2023-04-07
 - [DISTINCT](PLSQL/DISTINCT.md) 추가 / 2023-04-09
 - [IN](PLSQL/IN.md) 추가 / 2023-04-09
+- [IS NULL](PLSQL/IS_NULL.md) 추가 / 2023-04-10
+- [IS NOT NULL](PLSQL/IS_NOT_NULL.md) 추가 / 2023-04-10
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
