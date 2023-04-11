@@ -1,4 +1,4 @@
-# Oracle / PLSQL: IS NOT NULL 조건
+# Oracle / PLSQL : IS NOT NULL 조건
 
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle **IS NOT NULL 조건**을 사용하는 방법을 설명합니다.
 
@@ -10,7 +10,7 @@ Oracle/PLSQL에서 IS NOT NULL 조건의 구문은 다음과 같습니다.
 ```SQL
 expression IS NOT NULL
 ```
-### 매개변수 또는 인수
+### 매개변수 및 인수
 #### expression(표현식)
 - null이 아닌 값인지 테스트할 값입니다.
 
