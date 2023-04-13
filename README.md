@@ -74,6 +74,7 @@
 - [IS NOT NULL](PLSQL/IS_NOT_NULL.md) 추가 / 2023-04-10
 - [LIKE](PLSQL/LIKE.md) 추가 / 2023-04-11
 - [REGEXP_LIKE](PLSQL/REGEXP_LIKE.md) 추가 / 2023-04-12
+- [NOT](PLSQL/NOT.md) 추가 / 2023-04-13
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
