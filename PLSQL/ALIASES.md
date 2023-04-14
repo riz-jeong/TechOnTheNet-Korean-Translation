@@ -1,4 +1,4 @@
-# Oracle / PLSQL : 별칭
+# Oracle / PLSQL : ALIASES
 
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle **ALIASES** (열 또는 테이블의 임시 이름)를 사용하는 방법을 설명합니다.
 
