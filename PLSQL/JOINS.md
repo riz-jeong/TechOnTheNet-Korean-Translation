@@ -117,7 +117,7 @@ ON suppliers.supplier_id = orders.supplier_id;
 ```
 이 LEFT OUTER JOIN 예제는 suppliers 테이블의 모든 행과 조인된 필드가 동일한 orders 테이블의 행만 반환합니다.
 
-suppliers 테이블의 supplier_id 값이 orders 테이블에 존재하지 않는 경우 orders 테이블의 모든 필드가 결과 집합에서 <null>로 표시됩니다.
+suppliers 테이블의 supplier_id 값이 orders 테이블에 존재하지 않는 경우 orders 테이블의 모든 필드가 결과 집합에서 \<null>로 표시됩니다.
 
 LEFT OUTER JOIN의 작동 방식을 설명하기 위해 몇 가지 데이터를 살펴보겠습니다.
 
@@ -152,10 +152,10 @@ ON suppliers.supplier_id = orders.supplier_id;
 | :---------- | :-------------- | :--------- |
 | 10000       | IBM             | 2003/05/12 |
 | 10001       | Hewlett Packard | 2003/05/13 |
-| 10002       | Microsoft       | <null>     |
-| 10003       | NVIDIA          | <null>     |
+| 10002       | Microsoft       | \<null>    |
+| 10003       | NVIDIA          | \<null>    |
 
-LEFT OUTER JOIN이 사용되었기 때문에 Microsoft 및 NVIDIA에 대한 행이 포함됩니다. 그러나 이러한 레코드의 order_date 필드에 <null> 값이 포함되어 있음을 알 수 있습니다.
+LEFT OUTER JOIN이 사용되었기 때문에 Microsoft 및 NVIDIA에 대한 행이 포함됩니다. 그러나 이러한 레코드의 order_date 필드에 \<null> 값이 포함되어 있음을 알 수 있습니다.
 
 #### 옛 구문
 마지막으로, 위의 LEFT OUTER JOIN 예제는 외부 조인 연산자(+)를 사용하는 이전 암시적 구문을 사용하여 다음과 같이 다시 작성할 수 있다는 점을 언급할 필요가 있습니다. (하지만 여전히 LEFT OUTER JOIN 키워드 구문을 사용하는 것이 좋습니다)
@@ -196,7 +196,7 @@ ON suppliers.supplier_id = orders.supplier_id;
 ```
 이 RIGHT OUTER JOIN 예제는 orders 테이블의 모든 행과 조인된 필드가 동일한 suppliers 테이블의 행만 반환합니다.
 
-orders 테이블의 supplier_id 값이 suppliers 테이블에 존재하지 않는 경우 suppliers 테이블의 모든 필드가 결과 집합에서 <null>로 표시됩니다.
+orders 테이블의 supplier_id 값이 suppliers 테이블에 존재하지 않는 경우 suppliers 테이블의 모든 필드가 결과 집합에서 \<null>로 표시됩니다.
 
 RIGHT OUTER JOIN의 작동 방식을 설명하기 위해 몇 가지 데이터를 살펴보겠습니다.
 
@@ -228,9 +228,9 @@ ON suppliers.supplier_id = orders.supplier_id;
 | :------- | :--------- | :------------ |
 | 500125   | 2013/08/12 | Apple         |
 | 500126   | 2013/08/13 | Google        |
-| 500127   | 2013/08/14 | <null>        |
+| 500127   | 2013/08/14 | \<null>        |
 
-RIGHT OUTER JOIN이 사용되었으므로 500127(order_id)에 대한 행이 포함됩니다. 그러나 해당 레코드의 supplier_name 필드에 <null> 값이 포함되어 있음을 알 수 있습니다.
+RIGHT OUTER JOIN이 사용되었으므로 500127(order_id)에 대한 행이 포함됩니다. 그러나 해당 레코드의 supplier_name 필드에 \<null> 값이 포함되어 있음을 알 수 있습니다.
 
 #### 옛 구문
 마지막으로, 위의 RIGHT OUTER JOIN 예제는 외부 조인 연산자(+)를 사용하는 이전 암시적 구문을 사용하여 다음과 같이 재작성할 수 있습니다. (하지만 여전히 RIGHT OUTER JOIN 키워드 구문을 사용하는 것이 좋습니다)
@@ -269,9 +269,9 @@ FROM suppliers
 FULL OUTER JOIN orders
 ON suppliers.supplier_id = orders.supplier_id;
 ```
-이 FULL OUTER JOIN 예제는 suppliers 테이블의 모든 행과 orders 테이블의 모든 행을 반환하며 조인 조건이 충족되지 않을 때마다 결과 집합의 해당 필드에 <null>이 확장됩니다.
+이 FULL OUTER JOIN 예제는 suppliers 테이블의 모든 행과 orders 테이블의 모든 행을 반환하며 조인 조건이 충족되지 않을 때마다 결과 집합의 해당 필드에 \<null>이 확장됩니다.
 
-suppliers 테이블의 supplier_id 값이 orders 테이블에 존재하지 않는 경우 orders 테이블의 모든 필드가 결과 집합에서 <null>로 표시됩니다. orders 테이블의 supplier_id 값이 suppliers 테이블에 존재하지 않는 경우 suppliers 테이블의 모든 필드가 결과 집합에서 <null>로 표시됩니다.
+suppliers 테이블의 supplier_id 값이 orders 테이블에 존재하지 않는 경우 orders 테이블의 모든 필드가 결과 집합에서 \<null>로 표시됩니다. orders 테이블의 supplier_id 값이 suppliers 테이블에 존재하지 않는 경우 suppliers 테이블의 모든 필드가 결과 집합에서 \<null>로 표시됩니다.
 
 FULL OUTER JOIN이 어떻게 작동하는지 설명하기 위해 몇 가지 데이터를 살펴보겠습니다.
 
@@ -305,13 +305,13 @@ ON suppliers.supplier_id = orders.supplier_id;
 | :---------- | :-------------- | :--------- |
 | 10000       | IBM             | 2013/08/12 |
 | 10001       | Hewlett Packard | 2013/08/13 |
-| 10002       | Microsoft       | <null>     |
-| 10003       | NVIDIA          | <null>     |
-| <null>      | <null>          | 2013/08/14 |
+| 10002       | Microsoft       | \<null>    |
+| 10003       | NVIDIA          | \<null>    |
+| \<null>     | \<null>         | 2013/08/14 |
 
-FULL OUTER JOIN이 사용되었기 때문에 Microsoft 및 NVIDIA에 대한 행이 포함됩니다. 그러나 이러한 레코드의 order_date 필드에 <null> 값이 포함되어 있음을 알 수 있습니다.
+FULL OUTER JOIN이 사용되었기 때문에 Microsoft 및 NVIDIA에 대한 행이 포함됩니다. 그러나 이러한 레코드의 order_date 필드에 \<null> 값이 포함되어 있음을 알 수 있습니다.
 
-supplier_id 10004에 대한 행도 FULL OUTER JOIN이 사용되었으므로 포함됩니다. 그러나 해당 레코드의 supplier_id 및 supplier_name 필드에 <null> 값이 포함되어 있음을 알 수 있습니다.
+supplier_id 10004에 대한 행도 FULL OUTER JOIN이 사용되었으므로 포함됩니다. 그러나 해당 레코드의 supplier_id 및 supplier_name 필드에 \<null> 값이 포함되어 있음을 알 수 있습니다.
 
 #### 옛 구문
 마지막으로, 위의 FULL OUTER JOIN 예제는 [UNION 쿼리](UNION.md)를 사용하지 않고는 이전 구문으로 작성할 수 없었다는 점을 언급할 필요가 있습니다.
