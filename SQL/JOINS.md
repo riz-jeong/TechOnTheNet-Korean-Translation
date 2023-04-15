@@ -85,7 +85,7 @@ ORDER BY customers.customer_id;
 
 customers 테이블에서 customer_id가 6000 및 9000인 행은 두 테이블에 모두 존재하지 않으므로 생략됩니다. orders 테이블에서 order_id가 5인 행은 customers 테이블에 NULL의 customer_id가 존재하지 않으므로 생략됩니다.
 
-**옛 구문**
+#### 옛 구문
 마지막으로, 위의 INNER JOIN 예제는 이전 암시적 구문을 사용하여 다음과 같이 다시 작성할 수 있다는 점을 언급할 필요가 있습니다. (하지만 여전히 INNER JOIN 키워드 구문을 사용하는 것이 좋습니다) **[Try it](https://www.techonthenet.com/sql/joins_try_sql.php)**
 ```SQL
 SELECT customers.customer_id, orders.order_id, orders.order_date
@@ -177,7 +177,7 @@ ON table1.column = table2.column;
 일부 데이터베이스에서는 OUTER 키워드가 생략되고 단순히 RIGHT JOIN으로 작성됩니다.
 
 ### 일러스트
-이 시각적 다이어그램에서 SQL 오른쪽 외부 조인은 음영 처리된 영역을 반환합니다.
+이 다이어그램에서 SQL 오른쪽 외부 조인은 음영 처리된 영역을 반환합니다.
 
 ![RIGHT OUTER JOIN](Visual-Illustration/right_outer_join.gif)
 
@@ -244,7 +244,7 @@ ON table1.column = table2.column;
 일부 데이터베이스에서는 OUTER 키워드가 생략되고 단순히 FULL JOIN으로 작성됩니다.
 
 ### 일러스트
-이 시각적 다이어그램에서 SQL FULL OUTER JOIN은 음영 처리된 영역을 반환합니다.
+이 다이어그램에서 SQL FULL OUTER JOIN은 음영 처리된 영역을 반환합니다.
 
 ![FULL OUTER JOIN](Visual-Illustration/full_outer_join.gif)
 
