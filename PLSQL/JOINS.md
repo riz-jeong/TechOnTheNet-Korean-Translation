@@ -1,6 +1,6 @@
-# Oracle  / PLSQL : 조인
+# Oracle  / PLSQL : JOINS
 
-이 Oracle 튜토리얼에서는 구문, 일러스트 및 예제를 통해 Oracle에서 JOINS(내부 및 외부)를 사용하는 방법을 설명합니다.
+이 Oracle 튜토리얼에서는 구문, 일러스트 및 예제를 통해 Oracle에서 **JOINS**(내부 및 외부)를 사용하는 방법을 설명합니다.
 
 ## 설명
 Oracle JOIN은 여러 테이블에서 데이터를 검색하는 데 사용됩니다. 두 개 이상의 테이블이 SQL 문에서 조인될 때마다 Oracle JOIN이 수행됩니다.

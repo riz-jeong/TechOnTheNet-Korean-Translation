@@ -1,4 +1,4 @@
-# Oracle / PLSQL: INSERT ALL 문
+# Oracle / PLSQL : INSERT ALL 문
 
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle **INSERT ALL 문**을 사용하는 방법을 설명합니다.
 
