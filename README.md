@@ -78,6 +78,8 @@
 - [ALIASES](PLSQL/ALIASES.md) 추가 / 2023-04-14
 - [JOINS](PLSQL/JOINS.md) 추가 / 2023-04-15
 - [BETWEEN](PLSQL/BETWEEN.md) 추가 / 2023-04-16
+- [INSERT](PLSQL/INSERT.md) 추가 / 2023-04-17
+- [INSERT ALL](PLSQL/INSERT_ALL.md) 추가 / 2023-04-17
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
