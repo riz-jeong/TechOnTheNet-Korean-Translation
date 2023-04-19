@@ -80,6 +80,7 @@
 - [BETWEEN](PLSQL/BETWEEN.md) 추가 / 2023-04-16
 - [INSERT](PLSQL/INSERT.md) 추가 / 2023-04-17
 - [INSERT ALL](PLSQL/INSERT_ALL.md) 추가 / 2023-04-17
+- [UPDATE](PLSQL/UPDATE.md) 추가 / 2023-04-19
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
