@@ -1,6 +1,6 @@
 # Oracle / PLSQL : DELETE 문
 
-이 Oracle 튜토리얼에서는 구문, 예제 및 연습 문제를 통해 Oracle DELETE 문을 사용하는 방법을 설명합니다.
+이 Oracle 튜토리얼에서는 구문, 예제 및 연습 문제를 통해 Oracle **DELETE 문**을 사용하는 방법을 설명합니다.
 
 ## 설명
 Oracle DELETE 문은 Oracle의 테이블에서 단일 레코드 또는 여러 레코드를 삭제하는 데 사용됩니다.
@@ -29,7 +29,7 @@ WHERE last_name = 'Smith';
 ```
 이 Oracle DELETE 예제는 last_name이 Smith인 customers 테이블에서 모든 레코드를 삭제합니다.
 
-삭제될 행 수를 확인할 수 있습니다. 삭제를 수행하기 전에 다음 Oracle SELECT 문을 실행하여 삭제될 행 수를 확인할 수 있습니다.
+삭제될 행 수를 확인할 수 있습니다. 삭제를 수행하기 전에 다음 Oracle [SELECT 문](SELECT.md)을 실행하여 삭제될 행 수를 확인할 수 있습니다.
 ```SQL
 SELECT count(*)
 FROM customers
@@ -46,7 +46,7 @@ AND customer_id > 25;
 ```
 이 Oracle DELETE 예제는 customers 테이블에서 last_name이 'Anderson'이고 customer_id가 25보다 큰 모든 레코드를 삭제합니다.
 
-삭제할 행 수를 확인할 수 있습니다. 삭제를 수행하기 전에 다음 Oracle SELECT 문을 실행하여 삭제될 행 수를 확인할 수 있습니다.
+삭제할 행 수를 확인할 수 있습니다. 삭제를 수행하기 전에 다음 Oracle [SELECT 문](SELECT.md)을 실행하여 삭제될 행 수를 확인할 수 있습니다.
 ```SQL
 SELECT count(*)
 FROM customers
@@ -58,7 +58,7 @@ AND customer_id > 25;
 ## 예제 - EXISTS 절 사용
 더 복잡한 삭제를 수행할 수도 있습니다.
 
-다른 테이블의 값을 기반으로 한 테이블의 레코드를 삭제하고 싶을 수 있습니다. 삭제를 수행할 때 Oracle FROM 절에 둘 이상의 테이블을 나열할 수 없으므로 Oracle EXISTS 절을 사용할 수 있습니다.
+다른 테이블의 값을 기반으로 한 테이블의 레코드를 삭제하고 싶을 수 있습니다. 삭제를 수행할 때 Oracle FROM 절에 둘 이상의 테이블을 나열할 수 없으므로 Oracle [EXISTS 절](EXISTS)을 사용할 수 있습니다.
 ```SQL
 DELETE FROM suppliers
 WHERE EXISTS
