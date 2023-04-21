@@ -82,6 +82,8 @@
 - [INSERT ALL](PLSQL/INSERT_ALL.md) 추가 / 2023-04-17
 - [UPDATE](PLSQL/UPDATE.md) 추가 / 2023-04-19
 - [DELETE](PLSQL/DELETE.md) 추가 / 2023-04-20
+- [TRUNCATE](PLSQL/TRUNCATE.md) 추가 / 2023-04-21
+- [EXISTS](PLSQL/EXISTS.md) 추가 / 2023-04-21
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
