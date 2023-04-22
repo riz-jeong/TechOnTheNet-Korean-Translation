@@ -84,6 +84,8 @@
 - [DELETE](PLSQL/DELETE.md) 추가 / 2023-04-20
 - [TRUNCATE](PLSQL/TRUNCATE.md) 추가 / 2023-04-21
 - [EXISTS](PLSQL/EXISTS.md) 추가 / 2023-04-21
+- [GROUP BY](PLSQL/GROUP_BY.md) 추가 / 2023-04-22
+- [HAVING](PLSQL/HAVING.md) 추가 / 2023-04-22
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
