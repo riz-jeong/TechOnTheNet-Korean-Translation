@@ -1,4 +1,4 @@
-# Oracle / PLSQL: UNION ALL 연산자
+# Oracle / PLSQL : UNION ALL 연산자
 
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle **UNION ALL 연산자**를 사용하는 방법을 설명합니다.
 
@@ -9,7 +9,7 @@ Oracle UNION ALL 연산자 내의 각 [SELECT 문](SELECT.md)은 결과 집합�
 
 ## 구문
 Oracle/PLSQL에서 UNION ALL 연산자의 구문은 다음과 같습니다.
-```sql
+```SQL
 SELECT expression1, expression2, ... expression_n
 FROM tables
 [WHERE conditions]
@@ -32,7 +32,7 @@ FROM tables
 ---
 ## 예제 - 단일 필드 반환
 다음은 여러 SELECT 문에서 하나의 필드를 반환하는 Oracle UNION ALL 연산자의 예제입니다. (두 필드 모두 데이터 유형이 동일함)
-```sql
+```SQL
 SELECT supplier_id
 FROM suppliers
 UNION ALL
@@ -44,7 +44,7 @@ suppliers 및 orders 테이블에 모두 supplier_id가 표시되는 경우 이 
 ---
 ## 예제 - ORDER BY 사용
 Oracle UNION ALL 연산자는 Oracle [ORDER BY 절](ORDER_BY.md)을 사용하여 쿼리 결과의 순서를 지정할 수 있습니다.
-```sql
+```SQL
 SELECT supplier_id, supplier_name
 FROM suppliers
 WHERE state = 'California'

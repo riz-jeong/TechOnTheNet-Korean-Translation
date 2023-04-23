@@ -19,7 +19,7 @@ FROM tables
 [WHERE conditions];
 ```
 ### 매개변수 및 인수
-#### **expression1, expression2, expression_n
+#### **expression1, expression2, expression_n**
 - 검색하려는 열 또는 계산입니다.
 #### **tables**
 - 레코드를 검색하려는 테이블입니다. FROM 절에 하나 이상의 테이블이 나열되어야 합니다.
