@@ -88,6 +88,7 @@
 - [HAVING](PLSQL/HAVING.md) 추가 / 2023-04-22
 - [UNION](PLSQL/UNION.md) 추가 / 2023-04-23
 - [UNION ALL](PLSQL/UNION_ALL.md) 추가 / 2023-04-23
+- [INTERSECT](PLSQL/INTERSECT.md) 추가 / 2023-04-24
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
