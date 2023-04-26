@@ -1,4 +1,4 @@
-# Oracle / PLSQL: 피벗 절
+# Oracle / PLSQL : PIVOT 절
 
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle **PIVOT 절**을 사용하는 방법을 설명합니다.
 
