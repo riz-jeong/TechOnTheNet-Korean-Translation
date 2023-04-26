@@ -90,6 +90,8 @@
 - [UNION ALL](PLSQL/UNION_ALL.md) 추가 / 2023-04-23
 - [INTERSECT](PLSQL/INTERSECT.md) 추가 / 2023-04-24
 - [MINUS](PLSQL/MINUS.md) 추가 / 2023-04-25
+- [Subqueries](PLSQL/Subqueries.md) 추가 / 2023-04-26
+- [PIVOT](PLSQL/PIVOT.md) 추가 / 2023-04-26
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
