@@ -92,6 +92,7 @@
 - [MINUS](PLSQL/MINUS.md) 추가 / 2023-04-25
 - [Subqueries](PLSQL/Subqueries.md) 추가 / 2023-04-26
 - [PIVOT](PLSQL/PIVOT.md) 추가 / 2023-04-26
+- [Data Types](PLSQL/Data_Types.md) 추가 / 2023-04-27
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
