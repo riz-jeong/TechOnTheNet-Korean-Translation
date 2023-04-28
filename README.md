@@ -93,6 +93,8 @@
 - [Subqueries](PLSQL/Subqueries.md) 추가 / 2023-04-26
 - [PIVOT](PLSQL/PIVOT.md) 추가 / 2023-04-26
 - [Data Types](PLSQL/Data_Types.md) 추가 / 2023-04-27
+- [CREATE TABLE](PLSQL/CREATE_TABLE.md) 추가 / 2023-04-28
+- [CREATE TABLE AS](PLSQL/CREATE_TABLE_AS.md) 추가 / 2023-04-28
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
