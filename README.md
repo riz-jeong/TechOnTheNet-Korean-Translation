@@ -97,6 +97,8 @@
 - [CREATE TABLE AS](PLSQL/CREATE_TABLE_AS.md) 추가 / 2023-04-28
 - [Primary Keys](PLSQL/Primary_Keys.md) 추가 / 2023-04-29
 - [ALTER TABLE](PLSQL/ALTER_TABLE.md) 추가 / 2023-04-29
+- [DROP TABLE](PLSQL/DROP_TABLE.md) 추가 / 2023-04-30
+- [VIEWS](PLSQL/VIEWS.md) 추가 / 2023-04-30
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
