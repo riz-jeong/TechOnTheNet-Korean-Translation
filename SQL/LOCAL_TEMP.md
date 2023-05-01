@@ -33,4 +33,4 @@ DECLARE LOCAL TEMPORARY TABLE suppliers_temp
 이 예제에서는 suppliers_temp라는 지역 임시 테이블을 만듭니다.
 
 ---
-**[< 이전](VIEWS.md) / [다음 : INDEXES >](Indexes.md)**
+**[< 이전](GLOBAL_TEMP.md) / [다음 : INDEXES >](Indexes.md)**
