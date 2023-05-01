@@ -99,8 +99,8 @@
 - [ALTER TABLE](PLSQL/ALTER_TABLE.md) 추가 / 2023-04-29
 - [DROP TABLE](PLSQL/DROP_TABLE.md) 추가 / 2023-04-30
 - [VIEWS](PLSQL/VIEWS.md) 추가 / 2023-04-30
-- [GLOBAL TEMP](SQL/GLOBAL_TEMP.md) 추가 / 2023-05-01
-- [LOCAL TEMP](SQL/LOCAL_TEMP.md) 추가 / 2023-05-01
+- [GLOBAL TEMP](PLSQL/GLOBAL_TEMP.md) 추가 / 2023-05-01
+- [LOCAL TEMP](PLSQL/LOCAL_TEMP.md) 추가 / 2023-05-01
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
