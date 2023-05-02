@@ -101,6 +101,7 @@
 - [VIEWS](PLSQL/VIEWS.md) 추가 / 2023-04-30
 - [GLOBAL TEMP](PLSQL/GLOBAL_TEMP.md) 추가 / 2023-05-01
 - [LOCAL TEMP](PLSQL/LOCAL_TEMP.md) 추가 / 2023-05-01
+- [Foreign Keys](PLSQL/Foreign_Keys.md) 추가 / 2023-05-02
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
