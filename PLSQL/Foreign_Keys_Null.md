@@ -104,4 +104,4 @@ ADD CONSTRAINT fk_supplier
 ```
 
 ---
-**[< 이전](Foreign_Keys_Cascade.md) / [다음 : Drop a Foreign Key >](Foreign_Keys_Drop.md)**
+**[< 이전](Foreign_Keys_Cascade.md) / [다음 : Drop Foreign Key >](Foreign_Keys_Drop.md)**

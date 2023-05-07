@@ -104,6 +104,7 @@
 - [Foreign Keys](PLSQL/Foreign_Keys.md) 추가 / 2023-05-02
 - [Foreign Keys Cascade](PLSQL/Foreign_Keys_Cascade.md) 추가 / 2023-05-05
 - [Foreign Keys Null](PLSQL/Foreign_Keys_Null.md) 추가 / 2023-05-06
+- [Foreign Keys Drop](PLSQL/Foreign_Keys_Drop.md) 추가 / 2023-05-07
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
