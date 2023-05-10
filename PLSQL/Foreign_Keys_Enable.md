@@ -40,4 +40,4 @@ ENABLE CONSTRAINT fk_supplier;
 ```
 
 ---
-**[< 이전](Foreign_Keys_Disable.md) / [다음 : Enable Foreign key >](Foreign_Keys_Enable.md)**
+**[< 이전](Foreign_Keys_Disable.md) / [다음 : Unique Constraints >](UNIQUE_Constraints.md)**
