@@ -112,6 +112,7 @@
 - [Indexes](PLSQL/Indexes.md) 추가 / 2023-05-13
 - [Grant/Revoke](PLSQL/Grant_Revoke.md) 추가 / 2023-05-15
 - [Synonyms](PLSQL/Synonyms.md) 추가 / 2023-05-18
+- [Roles](PLSQL/Roles.md) 추가 / 2023-05-19
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
