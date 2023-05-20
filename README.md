@@ -113,6 +113,7 @@
 - [Grant/Revoke](PLSQL/Grant_Revoke.md) 추가 / 2023-05-15
 - [Synonyms](PLSQL/Synonyms.md) 추가 / 2023-05-18
 - [Roles](PLSQL/Roles.md) 추가 / 2023-05-19
+- [CREATE USER](PLSQL/CREATE_USER.md) 추가 / 2023-05-20
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
