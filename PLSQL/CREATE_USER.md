@@ -106,4 +106,4 @@ CREATE USER global_user1
 이 CREATE USER 문은 기본 테이블 스페이스가 tbs_perm_01이고 견적이 10M인 global_user1이라는 전역 데이터베이스 사용자를 생성합니다.
 
 ---
-**[< 이전](Roles.md) / [다음 : Change Password >](Password.md)**
+**[< 이전](Roles.md) / [다음 : Change Password >](Change_Password.md)**
