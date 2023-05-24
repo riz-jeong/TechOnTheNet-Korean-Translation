@@ -116,6 +116,7 @@
 - [CREATE USER](PLSQL/CREATE_USER.md) 추가 / 2023-05-20
 - [Change Password](PLSQL/Change_Password.md) 추가 / 2023-05-21
 - [DROP USER](PLSQL/DROP_USER.md) 추가 / 2023-05-22
+- [Find Users](PLSQL/Find_Users.md) 추가 / 2023-05-24
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
