@@ -118,6 +118,7 @@
 - [DROP USER](PLSQL/DROP_USER.md) 추가 / 2023-05-22
 - [Find Users](PLSQL/Find_Users.md) 추가 / 2023-05-24
 - [Find Users Logged In](PLSQL/Find_Users_Logged_In.md) 추가 / 2023-05-25
+- [Comments](SQL/Comments.md) 추가 / 2023-06-01
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
