@@ -122,6 +122,7 @@
 - [Literals](PLSQL/Literals.md) 추가 / 2023-06-02
 - [Declaring Variables](PLSQL/Declaring_Variables.md) 추가 / 2023-06-06
 - [Sequences](PLSQL/Sequences.md) 추가 / 2023-06-07
+- [Functions](PLSQL/Functions.md) 추가 / 2023-06-08
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
