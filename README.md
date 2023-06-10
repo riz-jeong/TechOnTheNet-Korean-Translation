@@ -123,6 +123,7 @@
 - [Declaring Variables](PLSQL/Declaring_Variables.md) 추가 / 2023-06-06
 - [Sequences](PLSQL/Sequences.md) 추가 / 2023-06-07
 - [Functions](PLSQL/Functions.md) 추가 / 2023-06-08
+- [Procedures](PLSQL/Procedures.md) 추가 / 2023-06-10
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
