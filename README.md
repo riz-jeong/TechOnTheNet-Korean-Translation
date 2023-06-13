@@ -125,6 +125,7 @@
 - [Functions](PLSQL/Functions.md) 추가 / 2023-06-08
 - [Procedures](PLSQL/Procedures.md) 추가 / 2023-06-10
 - [IF-THEN-ELSE](PLSQL/IF-THEN-ELSE.md) 추가 / 2023-06-11
+- [WHILE LOOP](PLSQL/WHILE_LOOP.md) 추가 / 2023-06-13
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
