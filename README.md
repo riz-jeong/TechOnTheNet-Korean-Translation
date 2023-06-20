@@ -127,6 +127,7 @@
 - [IF-THEN-ELSE](PLSQL/IF-THEN-ELSE.md) 추가 / 2023-06-11
 - [WHILE LOOP](PLSQL/WHILE_LOOP.md) 추가 / 2023-06-13
 - [FOR LOOP](PLSQL/FOR_LOOP.md) 추가 / 2023-06-18
+- [EXIT](PLSQL/EXIT.md) 추가 / 2023-06-20
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
