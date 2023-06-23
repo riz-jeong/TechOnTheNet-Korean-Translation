@@ -1,4 +1,4 @@
-# Oracle / PLSQL : 반복까지 루프
+# Oracle / PLSQL : REPEAT UNTIL LOOP
 
 이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle에서 **REPEAT UNTIL LOOP**를 사용하는 방법을 설명합니다.
 
