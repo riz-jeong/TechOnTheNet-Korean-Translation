@@ -131,6 +131,7 @@
 - [LOOP](PLSQL/LOOP.md) 추가 / 2023-06-22
 - [REPEAT UNTIL LOOP](PLSQL/REPEAT_UNTIL_LOOP.md) 추가 / 2023-06-22
 - [GOTO](PLSQL/GOTO.md) 추가 / 2023-06-23
+- [CURSOR FOR LOOP](PLSQL/CURSOR_FOR_LOOP.md) 추가 / 2023-06-24
 
 ---
 ## [TechOnTheNet SQL Server](https://www.techonthenet.com/sql_server/index.php)
