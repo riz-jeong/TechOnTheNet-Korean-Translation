@@ -1,6 +1,6 @@
 # Oracle / PLSQL : CURSOR FOR LOOP
 
-이 Oracle 자습서에서는 구문과 예제를 통해 Oracle에서 CURSOR FOR LOOP를 사용하는 방법을 설명합니다.
+이 Oracle 튜토리얼에서는 구문과 예제를 통해 Oracle에서 CURSOR FOR LOOP를 사용하는 방법을 설명합니다.
 
 ## 설명
 커서 내의 모든 레코드를 가져와서 처리하려는 경우 CURSOR FOR LOOP를 사용할 수 있습니다. 커서 내의 모든 레코드를 가져오면 CURSOR FOR LOOP가 종료됩니다.

@@ -106,4 +106,4 @@ END;
 이 예제에서는 DUP_VAL_ON_INDEX라는 명명된 시스템 예외를 트래핑하고 있습니다. 또한 나머지 모든 예외를 트래핑하기 위해 WHEN OTHERS 절을 사용하고 있습니다.
 
 ---
-**[< 이전](CURSOR_FOR_LOOP.md) / [다음 : Named Programmer-Defined Exceptionnext >](Named_Programmer-Defined_Exceptions.md)**
+**[< 이전](CURSOR_FOR_LOOP.md) / [다음 : Named Programmer-Defined Exception >](Named_Programmer-Defined_Exceptions.md)**
